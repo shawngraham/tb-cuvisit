@@ -3,8 +3,15 @@
 distance from Rome in weeks, as determined from orbis.stanford.edu
 
 Rome - site 0
+-use different shapes for nodes
 
 ### Week 1 distance:
+- carthage
+- syracuse
+- puteoli
+- caralis
+
+### Week 2 distance:
 - marseilles
 - athens
 - lepcis magna
@@ -19,8 +26,9 @@ Rome - site 0
 - rhodes
 - palma
 - sardinia
+- salona (illyria)
 
-### Week 2 distance:
+### Week 3 distance:
 - cordoba
 - antioch
 - alexandria
@@ -38,7 +46,7 @@ Rome - site 0
 - italica
 - timgi
 
-### Week 3 distance:
+### Week 4 distance:
 - constantinople
 - londinium
 - limonum
@@ -53,6 +61,7 @@ Rome - site 0
 - pax iulia
 - aurlium cananefatium (netherlands)
 
+
 ### outer darkness
 - eborocum
 - vindolanda
@@ -62,5 +71,4 @@ Rome - site 0
 - chersonesos
 - something in germany
 - budapest
-- novae in bulgaria
 - zarmizegetusa regia (dacia)
