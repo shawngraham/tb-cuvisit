@@ -35,6 +35,8 @@
 			+ (or should it be size - cost/2 = profit? playtest!)
 		- trade *must* have an emporium/warehouse
 		- multiple emporia can exist in a town, but presence of multiple emporia lowers the price received for goods in that town [effect of multiple emporia is reduced by marriage, adoption]: price is divided by number of emporia
+		- you can have only 1 agent per city
+		
 
 - *social complications* agents control cities; marriage or adoption allows two agents to control a city, get access to other warehouses in a province. Need appropriate cards for this to happen. Carries a cost.
 	- in cases of marriage, divorce breaks the alliance; carries cost (daughter can't be remarried off; falls on her dagger)
@@ -42,9 +44,12 @@
 
 - remember that Romans have a natural tendency towards oligopoly
 - *order of play*
-    + 1. everyone moves
+    + 1. everyone moves (one step per move per agent - includes challenges)
     + 2. wheeling/deeling
     + 3. trade
     + 4. build emporia (can only use the money generated this turn to build)
 
 Win conditions: most money… [after time x? Control of board?]
+
+- You need pairs of agents to remove informational uncertainty
+- networks can have bottlenecks, can be squatted by agents (bottlenecks tend to be in the middle of the network)
