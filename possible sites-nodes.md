@@ -18,6 +18,7 @@ Rome - site 0
 - delos
 - rhodes
 - palma
+- sardinia
 
 ### Week 2 distance:
 - cordoba
