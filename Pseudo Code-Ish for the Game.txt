@@ -1,0 +1,118 @@
+Pseudo Code-Ish for the Game
+
+to set up
+	- set $ =100
+	- set family_cards = 3
+	- shuffle fate_cards
+	- set prestige = )
+	roll dice to see who ges first (order of play then clockwise)
+
+end
+
+to go
+	- move
+	- social
+	- trade
+	- build
+	- fate
+	-check_for_victory
+end
+
+to move
+	- if n_of_agents < 4, roll-to-activate
+		(if dice_roll >= 4, hatch-on-rome)
+		(pass)
+	- ask agents
+		move 1 to link-neighbors (if desired)
+end
+
+to social
+	- propose_marriage_alliance
+	- propose_adoption
+	- propose_marriage_local
+	- oust_other_agent_here
+	- update_prestige*
+end
+
+to trade
+	- ask emporia
+		report profit
+	- update $_counter
+end
+
+to build
+	- ask nodes_w_agents (if desired)
+		build or remove emporia
+		set money money-emporia_cost
+	- euergeitism (if and only if money > 0)
+		update_prestige
+end
+
+to fate
+	- draw fate card [one fate card per turn]
+	- accept or act on consequences [as appropriate to the players]
+end
+
+to check_for_victory
+	- report victory_conditions
+		x prestige + y $
+		OR
+		x amount
+		OR
+		y amount
+end
+
+to propose_marriage_alliance
+## this is to cement a trade advantage. proposed to another player
+- if other agent in same province AND
+- if appropriate family_card is in BOTH player's hands (male-female)
+    + offer to other player. negotiate a dowery. pay to other player.
+    + if successful, adjust prestige for both players + 1
+    + remove cards from both players
+end
+
+to propose_adoption
+## this is to generate prestige, primarily, proposed to another player
+- if adoption card (SG: only males adopted?)
+    + negotiate with other player 2 ranks higher on prestige ladder
+    + if yes, proposer pays them the agreed price
+    + proposer prestige + 1
+end
+
+to propose_marriage_local
+## this is about protecting position within a province
+- if player has appropriate family card
+    + pay x$ (which is withdrawn from circulation)
+    + you are now 'married into' the local aristocracy
+        * roll to displace agent from this node in particular now = 6
+        * proposers prestige + 1
+end
+
+Special rules in Rome:
+    - max 1 agent per player in Rome
+    - social procedures do not apply in Rome
+
+to oust_other_agent_here
+    - if family, share?
+    - ousting = divorce?
+
+   ## needs to be thought through ##
+end
+
+* prestige, money, updated whenever there is a change, rather than at a particular point, perhaps.
+
+THINGS THAT AFFECT PRESTIGE
+- marriage + 1
+- divorce - 1 for the divorcee
+- disown an adoptee - 1 for the adoptee. 
+- 1st emporia in a new province + 1
+- emporium in every node in a province + 1
+- euergetism (which happens with appropriate fate card. $100 spent building vanity buildings) + 1
+-
+
+FATE CARDS
+- revolt in CITY X burns down all the emporia. All players lose emporia there
+- the emperor invites citizens to demonstrate piety by renovating temples in Rome. An opportunity for EUERGETISM
+- The emperor sees enemies everywhere. A family member of the most prestigious amongst you is named an enemy. Lose y prestige
+- etc
+- 

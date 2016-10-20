@@ -27,6 +27,7 @@ Rome - site 0
 - palma
 - sardinia
 - salona (illyria)
+- Iol Caesarea (roughly mauretania/numidia)
 
 ### Week 3 distance:
 - cordoba
@@ -64,7 +65,6 @@ Rome - site 0
 
 ### outer darkness
 - eborocum
-- vindolanda
 - berencie (red sea)
 - persia/persian gulf/parthia
 - garamentes
