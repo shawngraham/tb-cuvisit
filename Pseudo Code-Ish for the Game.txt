@@ -104,7 +104,7 @@ end
 THINGS THAT AFFECT PRESTIGE
 - marriage + 1
 - divorce - 1 for the divorcee
-- disown an adoptee - 1 for the adoptee. 
+- disown an adoptee - 1 for the adoptee.
 - 1st emporia in a new province + 1
 - emporium in every node in a province + 1
 - euergetism (which happens with appropriate fate card. $100 spent building vanity buildings) + 1
@@ -115,4 +115,8 @@ FATE CARDS
 - the emperor invites citizens to demonstrate piety by renovating temples in Rome. An opportunity for EUERGETISM
 - The emperor sees enemies everywhere. A family member of the most prestigious amongst you is named an enemy. Lose y prestige
 - etc
-- 
+-
+
+to report_profit
+ - You need pairs of agents to remove informational uncertainty
+ - otherwise, you pay the full cost
