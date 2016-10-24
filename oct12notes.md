@@ -45,7 +45,7 @@
 - remember that Romans have a natural tendency towards oligopoly
 - *order of play*
     + 1. everyone moves (one step per move per agent - includes challenges)
-    + 2. wheeling/deeling
+    + 2. wheeling/dealing
     + 3. trade
     + 4. build emporia (can only use the money generated this turn to build)
 
