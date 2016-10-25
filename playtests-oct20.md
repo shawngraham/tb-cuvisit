@@ -38,6 +38,34 @@ clarification on basic rules: need both an emporium & an agent in rome to get th
 - have a line for euergetism or prestige, some sort of visual marker showing off price of euergetism - does this intersect with the cursus honorem? see also the design on the game board.
 
 - if you complete a trade route from rome to a city at distance 5, while that chain is complete, the number 5 city acts as if you have an agent on it.
-- adoption: negotiated with another player. adoptee pays negotiated amount of money, gets +1 prestige; adopter gets the money. If the adoptee or adopter then moves agressively against the agent (oust) or the emporia (remove) then the bonds of family are broken and the aggressor loses +1 prestige. (have to have an adoption card available at the time to get adoption). if you're adopted you can be on same city with adoptee no problem. (same if you're married to the other player)
+- adoption: negotiated with another player. adoptee pays negotiated amount of money, gets +1 prestige; adopter gets the money. If the adoptee or adopter then moves agressively against the agent (oust) or the emporia (remove) then the bonds of family are broken and the aggressor loses +1 prestige. (have to have an adoption card available at the time to get adoption). if you're adopted you can be on same city with adoptee no problem. (same if you're married to the other player). adopter has to be +2 higher in prestige for this to happen at all.
 
 -major problem: earning prestige points later on, pathways to earning prestige, relationship between money & prestige? increase over $1000 = +1, over $2000 = +1, but if you drop under $1000, under $2000 you lose it again.
+
+- play test # 4
+- now with fate cards
+- and with previously agreed rules
+- marriage costs 200.
+- ousting: two agents on a city: newcomer tries to oust: have to roll 4+. loser is removed from the board. challenge cost is $100.
+
+-fate cards on good agriculture bonus: how can they be balanced better? make them have equal advantage for each province. name two cities per region? ag bonus $500 (too high?)
+- the money that gets turned into prestige: that condition gets checked at the very end of a turn.
+- reminder: euergetism 1 purchase per turn
+- make sure there are at least 2 of the census cards.
+- build 5 horrea in the region, get a prestige point. Rome doesn't count. if you had five, then lose one, you lose the prestige point.
+- i suggest scaling prestige 4 8 12. Which would make victory first person to 12. [initially playing 5 10 15]
+- fate card suggestion: a card that enables everyone to build 2 horrea in the next turn.
+- rethink motivations for adoption
+- grain bonus: carthage, alexandria
+- slaves bonus: lugdunum, ephesus.
+- if you should happen to lose a horrea in a province such that you no longer have *any* horrea in that province (is Rome part of a province) lose 1 prestige
+- how to balance risk oust/oustee in oust procedure?
+- should social be marriage OR adoption OR oust?
+- ousting is always just the agent (not the horrea)
+- cost to have a die roll to remove horrea - $200 - 4+ roll (unless owner of horrea has family ties there, in which case need a 6)
+- victory conditions: if two or more players get to 15 prestige at the end of the turn, person with most money is the winner.
+- victory conditions: two people with highest prestige: two consuls? two winners? nah
+
+Iza wins!
+
+-- send fate card files to Tom 
