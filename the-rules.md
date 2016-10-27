@@ -1,7 +1,7 @@
 
 In _Horrea_, players compete to become the most prestigious Roman by having their agents engage in trade in markets across the Roman Empire. In each turn, agents are set out one step at a time across the network of markets to establish horrea (warehouses) or destroy other players' horrea, negotiate alliances or break them apart, establish a presence in a region or prevent another agent from accessing it.
 
-Trade functions through every market where a player has established a warehouse. The further from Rome, the higher the transport and information costs and the lower the profit. But agents who are connected back to Rome are better informed, and so can get a better return.
+Trade functions through every market where a player has established a warehouse. The further from Rome, the higher the transport and information costs and the lower the profit. But agents who are connected back to Rome are better informed, and so can get a better return. At the edges of Empire fortunes can be made accessing the wealth of the East, the South, or the North!
 
 Money is not the only way for a player to grow in prestige; a combination of clever board control and alliances and benefactions allow a player to move up the cursus honorum (prestige ladder) to become Consul! But fate will always play a role, and can upset the most intricate of plans.
 
