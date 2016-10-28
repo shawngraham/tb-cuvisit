@@ -68,4 +68,19 @@ clarification on basic rules: need both an emporium & an agent in rome to get th
 
 Iza wins!
 
--- send fate card files to Tom 
+-- send fate card files to Tom
+
+## playtest with Elise as 4th player
+- remember, even if married to another player can't be two on same node
+- victory, you actual achieve *16* points
+
+-3 bar system:
+  bar 1: basic income
+  bar 2: modifications
+  bar 3: running total
+
+  and/OR
+
+  Iza's spreadsheets
+
+- drop a zero off everything - income, boosts, prices, round as appropriate
