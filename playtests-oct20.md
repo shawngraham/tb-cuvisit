@@ -84,3 +84,6 @@ Iza wins!
   Iza's spreadsheets
 
 - drop a zero off everything - income, boosts, prices, round as appropriate
+
+- make Rome node much bigger
+- 
