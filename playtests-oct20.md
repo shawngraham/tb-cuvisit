@@ -86,4 +86,4 @@ Iza wins!
 - drop a zero off everything - income, boosts, prices, round as appropriate
 
 - make Rome node much bigger
-- 
+- add nw limes, lugdunum carnafatium, tridentum, pannonia
