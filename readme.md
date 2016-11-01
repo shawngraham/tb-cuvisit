@@ -2,7 +2,7 @@
 
 A repo for Tom & Shawn & Iza to collaborate, Fall 2016
 
-# Horrea
+# Forum: Trade Empires of Rome
 
 _a game of Roman power, money, and treachery_
 
