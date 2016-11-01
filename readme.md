@@ -4,7 +4,7 @@ A repo for Tom & Shawn & Iza to collaborate, Fall 2016
 
 # Forum: Trade Empires of Rome
 
-_a game of Roman power, money, and treachery_
+_a game of power, money, and prestige set in Imperial Rome_
 
 **goal**
 - to generate enough money and prestige to reach the top of the social hierarchy of Rome.
