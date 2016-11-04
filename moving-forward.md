@@ -11,20 +11,24 @@
 
 ## to do list
 - prepare the game for digital sharing with testers  **high priority**
-  - presentable board/map - done
-  - presentable cards
-  - clearly described rules
-  - historical notes: justification for why things are the way they are
-  - email our ideal testers, see if they're interested (Ulrich, Tim, TB's brothers?) (give em' 2 weeks for feedback)
+  - presentable board/map - done: nov 4 revise in light of playtest.md
+  - presentable cards - collate into single file
+  - clearly described rules - update with revisions from playtest
+  - historical notes: justification for why things are the way they are - TB has emailed to SG; SG update
+  - email our ideal testers, see if they're interested (Ulrich, Tim, TB's brothers?) (give em' 2 weeks for feedback)- they've agreed
   - DATE: end of this week: NOV 4 (send it by friday evening)
   - iza: writeup short-rules - done (read through, doublecheck)
-  - assembly instructions for the game.
+  - assembly instructions for the game. TO BE DONE
+
+  - create release package ALPHA 0.5
+
 
 - research kickstarter & best practices for boardgames **low priority**
   - things they raise money for
   - reward structures
   - feasibility
   - talk with KB & TPG re their experience
+  - email KB, says we can ask him
 
 - prepare the board game pitch
   - target audience - likely size, market demand
