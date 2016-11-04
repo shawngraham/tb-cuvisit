@@ -11,13 +11,14 @@
 
 ## to do list
 - prepare the game for digital sharing with testers  **high priority**
-  - presentable board/map
+  - presentable board/map - done
   - presentable cards
   - clearly described rules
   - historical notes: justification for why things are the way they are
   - email our ideal testers, see if they're interested (Ulrich, Tim, TB's brothers?) (give em' 2 weeks for feedback)
   - DATE: end of this week: NOV 4 (send it by friday evening)
-  - iza: writeup short-rules
+  - iza: writeup short-rules - done (read through, doublecheck)
+  - assembly instructions for the game.
 
 - research kickstarter & best practices for boardgames **low priority**
   - things they raise money for

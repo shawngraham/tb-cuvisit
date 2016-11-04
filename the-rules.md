@@ -20,14 +20,14 @@ Become the most prestigious Roman through trade and treachery!
 - place each player's money counter on the money ladder.
 - shuffle then deal everyone 3 family cards (family cards are 'boy', 'girl')
 - shuffle the fate cards and place face down on the board
-- prestige for everyone at the start is 0. 
+- prestige for everyone at the start is 0.
 - Place prestige counters on the prestige ladder on the board.
 - Players may only go into debt, if necessary, in any phase, if they have more than 0 prestige; players may borrow money at the rate of $100 per 1 prestige point.
 - roll the dice to determine who will play first. Highest roll wins; play proceeds clockwise.
 - each player has four agent tokens; each player places one token on Rome.
 
 ## Order of Play
-- the game is played in a series of turns; each turn has a sequence of distinct phases. Each phase is completed in turn. 
+- the game is played in a series of turns; each turn has a sequence of distinct phases. Each phase is completed in turn.
 - the phases within a turn are:
 - Move Agents
 - Social Intrigues
@@ -37,9 +37,9 @@ Become the most prestigious Roman through trade and treachery!
 - Convert money into prestige
 - Victory conditions are assessed at the end of the turn if necessary.
 
-If player 'Alice' starts the turn, Alice is the first person to do each phase _within_ that turn. All players complete a phase before the next phase begins. Thus, Alice starts, then Alice moves, then Bob, then Charlie. Then Alice does the next phase ('Social Intrigue'), then Bob, then Charlie, and so on. 
+If player 'Alice' starts the turn, Alice is the first person to do each phase _within_ that turn. All players complete a phase before the next phase begins. Thus, Alice starts, then Alice moves, then Bob, then Charlie. Then Alice does the next phase ('Social Intrigue'), then Bob, then Charlie, and so on.
 
-The next turn 'Bob' starts, and then Bob is the first person to do each phase within that turn. Thus, Bob moves his agents, then Charlie, then Alice. 
+The next turn 'Bob' starts, and then Bob is the first person to do each phase within that turn. Thus, Bob moves his agents, then Charlie, then Alice.
 
 ## Phases of Play
 
@@ -55,7 +55,7 @@ The next turn 'Bob' starts, and then Bob is the first person to do each phase wi
 
 - agents move 1 step over the network along the links to adjacent cities.
 
-- IN ALL CITIES except for Rome, there can only be ONE agent. 
+- IN ALL CITIES except for Rome, there can only be ONE agent.
 HOWEVER:
 - a player can still move her agent to a market where there is another player's agent, but this situation MUST be resolved during the 'Social Intrigues' phase.
 
@@ -73,14 +73,14 @@ HOWEVER:
 - the two players negotiate a price that the player who initiates the proposal has to pay to the other player.
 - if accepted, both players get +2 prestige
 - both family cards are removed from play
-- marriages can be dissolved 
+- marriages can be dissolved
 - through an appropriate FATE card
 - through aggressive action by one player in the alliance towards the other (OUSTING an agent or DESTROYING a horrea)
 - at the request of one of the players
 - if a marriage is dissolved BOTH players LOSE 2 Prestige in all cases, and the initial price MUST be repayed.
 
 -ADVANTAGES of Marriage Alliance with another player
-- the presence of one player's agent on the other player's horreum (warehouse) in the TRADE phase acts as if it were second player's agent as well. 
+- the presence of one player's agent on the other player's horreum (warehouse) in the TRADE phase acts as if it were second player's agent as well.
 
 ** Marriage alliance into the local aristocracy of a market **
 
@@ -119,7 +119,7 @@ HOWEVER:
 - the return in any one market also depends on the number of horrea exploiting that market; more horrea lower the profit per player
 - players count up the value for each market they have a horrea in
 - each market indicates the value available depending on number of horrea in it - see Figure xx
-- WHEN a player has an agent IN ROME and in a market with horrea in BOTH cities, informational uncertainty is REMOVED and the player receives the FULL VALUE of that market: 
+- WHEN a player has an agent IN ROME and in a market with horrea in BOTH cities, informational uncertainty is REMOVED and the player receives the FULL VALUE of that market:
 - for a major market, the FULL value returned is $240
 - for a medium market, the FULL value retured is $180
 - for a minor market, the FULL value is $120
@@ -135,7 +135,7 @@ HOWEVER:
 
 ** BUILD **
 - a player may only build one horreum per market
-- a player must have an agent on that market in order to build there 
+- a player must have an agent on that market in order to build there
 - a player may only build one horreum per turn
 - the player must pay $100 to build
 - the player receives + 1 prestige for that player's FIRST horreum in a region
@@ -168,11 +168,11 @@ The player who began the TURN draws a fate card and reads it to the players. All
 
 ### CONVERT MONEY INTO PRESTIGE ###
 
-At this point in the TURN, 
+At this point in the TURN,
 
 - when a player's available money INCREASES past a multiple of $1000 mark as a result of the current turn's events, the player EARNS 1 prestige.
 - when a player's available money DECREASES past a multiple of $1000 mark as a result of the current turn's events, the player LOSES 1 prestige.
-- if a player needs to go into DEBT at any PHASE of a turn, the player loses 1 prestige per $100. 
+- if a player needs to go into DEBT at any PHASE of a turn, the player loses 1 prestige per $100.
 - Prestige cannot go below 0.
 
 
@@ -196,4 +196,4 @@ Victory occurs IF a player has achieved 15 prestige points at the END of a turn,
 - end of each turn increase of money past a multiple of $1000: + 1
 - end of each turn decrease of money past a multiple of $1000: - 1
 - debt per $100: - 1
-
+- if you lose your only warehouse in a given region, you lose 1 prestige.

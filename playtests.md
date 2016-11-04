@@ -1,4 +1,4 @@
-1st play-test observations
+## 1st play-test observations - oct 20
 
 - let every player have 1 agent to start (b/c Tom has still to get on to the board)
 - debt perhaps to remove 1 prestige point for each turn?
@@ -13,7 +13,7 @@
 - max euergetism 1 temple, 1 game etc per turn - build in some kind of waiting period?
 - some way of displacing other people's emporia? [instead of building an emporium, pay $ to get chance to remove emporia by super die roll]
 
-Play test 2
+## Play test 2
 - start w $200
 - build 1 emporium per turn
 - emporia cost $100
@@ -32,7 +32,7 @@ clarification on basic rules: need both an emporium & an agent in rome to get th
 - you cannot have two of your agents on the same city. If that is the only option (as in Rome), then you must remove the agent.
 
 
-- play test # 3
+## play test # 3
 - using rule changes from #2
 - suggestion: euergetism 200. next temple has to be 300. next has to be 400 (competitive building!) prestige goes up by 1 each time.
 - have a line for euergetism or prestige, some sort of visual marker showing off price of euergetism - does this intersect with the cursus honorem? see also the design on the game board.
@@ -42,7 +42,7 @@ clarification on basic rules: need both an emporium & an agent in rome to get th
 
 -major problem: earning prestige points later on, pathways to earning prestige, relationship between money & prestige? increase over $1000 = +1, over $2000 = +1, but if you drop under $1000, under $2000 you lose it again.
 
-- play test # 4
+## play test # 4
 - now with fate cards
 - and with previously agreed rules
 - marriage costs 200.
@@ -70,7 +70,7 @@ Iza wins!
 
 -- send fate card files to Tom
 
-## playtest with Elise as 4th player
+## playtest 5 with Elise as 4th player
 - remember, even if married to another player can't be two on same node
 - victory, you actual achieve *16* points
 
@@ -87,3 +87,22 @@ Iza wins!
 
 - make Rome node much bigger
 - add nw limes, lugdunum carnafatium, tridentum, pannonia
+
+## playtest nov 4 with boardgame-new.pdf printed out
+- stretch money chart to scale full side of the board
+- rotate 'consul' in prestige chart 90
+- make tradeboost chart a bit smaller
+- more of a 'roman' font for the title, info panels (leave city name fonts as is.)
+- double check latin/greek names for spelling
+- move title?
+- invert colours on triangles to make more visually apparent?
+- invert the scale so higher numbers are higher up the board
+- redesign the prestige counter to have four tracks, similar to how the money track works
+- 'luxury goods from Greece' <- change fate card to read, 'asia minor'
+- i destroyed tom's only warehouse in a province; we debated: lose 1 prestige if lose only warehouse in a region
+- balance fate card 'praefectus annonae' so that there's one new fate card, 'supply the army on the limes' etc, a rome + market in the greek east, rome + market in northwest. lugdunum, ephesus
+- some kind of marker to indicate when there is a marriage into local aristocracy at a market
+- instead of child cards, just have 1 boy 1 girl by default.
+- instead of 'trade boost', call it 'information boost'
+
+- Iza wins again. (she has won every single playtest)
