@@ -1,12 +1,12 @@
 
-In _Horrea_, players compete to become the most prestigious Roman by having their agents engage in trade in markets across the Roman Empire. In each turn, agents are set out one step at a time across the network of markets to establish horrea (warehouses) or destroy other players' horrea, negotiate alliances or break them apart, establish a presence in a region or prevent another agent from accessing it.
+In _FORVM_, players compete to become the most prestigious Roman by having their agents engage in trade in markets across the Roman Empire. In each turn, agents are set out one step at a time across the network of markets to establish horrea (warehouses) or destroy other players' horrea, negotiate alliances or break them apart, establish a presence in a region or prevent another agent from accessing it.
 
 Trade functions through every market where a player has established a warehouse. The further from Rome, the higher the transport and information costs and the lower the profit. But agents who are connected back to Rome are better informed, and so can get a better return. At the edges of Empire fortunes can be made accessing the wealth of the East, the South, or the North!
 
 Money is not the only way for a player to grow in prestige; a combination of clever board control and alliances and benefactions allow a player to move up the cursus honorum (prestige ladder) to become Consul! But fate will always play a role, and can upset the most intricate of plans.
 
 
-# Rules of _Horrea_
+# Rules of _FORVM_
 
 ## Aim of the Game
 Become the most prestigious Roman through trade and treachery!
@@ -18,7 +18,7 @@ Become the most prestigious Roman through trade and treachery!
 - for 3 to 4 players
 - everyone has $200 to start
 - place each player's money counter on the money ladder.
-- shuffle then deal everyone 3 family cards (family cards are 'boy', 'girl')
+- each player has a son and daughter; these are not represented by any tokens.
 - shuffle the fate cards and place face down on the board
 - prestige for everyone at the start is 0.
 - Place prestige counters on the prestige ladder on the board.
@@ -89,9 +89,8 @@ HOWEVER:
 - the player can pay $200
 - no other player has already married into that market's aristocracy
 - the player's prestige increases +1 prestige
-- the family card is removed from play
-- the marriage can be dissolved
-- through an appropriate FATE card
+- the player makes a note of which child was involved; that child is no longer available for intrigue.
+- the marriage can be dissolved through an appropriate FATE card
 
 -ADVANTAGES of Marriage Alliance with Local Aristocracy
 - a roll to OUST the player's agent from that market has to be 6.
@@ -119,12 +118,9 @@ HOWEVER:
 - the return in any one market also depends on the number of horrea exploiting that market; more horrea lower the profit per player
 - players count up the value for each market they have a horrea in
 - each market indicates the value available depending on number of horrea in it - see Figure xx
-- WHEN a player has an agent IN ROME and in a market with horrea in BOTH cities, informational uncertainty is REMOVED and the player receives the FULL VALUE of that market:
-- for a major market, the FULL value returned is $240
-- for a medium market, the FULL value retured is $180
-- for a minor market, the FULL value is $120
+- WHEN a player has an agent IN ROME and in a market with horrea in BOTH cities, informational uncertainty is REMOVED and the player receives the trade boost for that market, as indicated by the table of values on the board.
 
-- If by the trade phase a player has a FULL NETWORK PATH from ROME to another LARGE market (ie a horreum in each market on any path of five steps starting in Rome and ending in the large market): the player recieves the FULL value (ie $240) for the large market without having to have an agent present.
+- If by the trade phase a player has a FULL NETWORK PATH from ROME to another LARGE market (ie a horreum in each market on any path of five steps starting in Rome and ending in the large market): the player receives the FULL value for the large market without having to have an agent present.
 
 - players keep track of their money by moving their token along the money ladder on the board
 
