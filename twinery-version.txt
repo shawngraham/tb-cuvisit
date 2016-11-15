@@ -1,5 +1,7 @@
 FORVM RULES
 
+A Complete Turn
+
 [[1. move]]
 
 [[2. social intrigues]]
@@ -9,25 +11,49 @@ FORVM RULES
 [[4. build or destroy or benfaction]]
 
 [[5. assess the outcome]]
+
+-------
+1. move
 description of the rule
 
 [[justification for the movement rules]]
-Double-click this passage to edit it.
-Double-click this passage to edit it.
-Double-click this passage to edit it.
-Double-click this passage to edit it.
+
+-------
+2. social intrigues
+
+
+-------
+3. trade
+
+-------
+4. build or destroy or provide benefactions
+
+
+----
+5. assess the outcome
+
+----
+justification for the movement rules
+
 costs of travel
 
 network structure of roman space
 
 
 [[FORVM]]
+
+-----
+
+Start: Triangle Diagram
+
 [[Board Game]]|[[ABM]]|[[Video Game]]
 
 <img src="http://i.imgur.com/ocxehBk.png">
 
 -- code to keep track of whether or not tghe reader has read all three before letting them see the rules --
 
+-------
+ABM
 
 [[Board Game]]
 
@@ -36,6 +62,10 @@ network structure of roman space
 -- code to keep track of whether or not tghe reader has read all three before letting them see the rules --
 
 [[FORVM]]
+
+-----
+Board Game
+
 [[ABM]]
 
 
@@ -45,6 +75,10 @@ network structure of roman space
 -- code to keep track of whether or not tghe reader has read all three before letting them see the rules --
 
 [[FORVM]]
+
+----
+Video Game
+
 [[ABM]]
 
 
@@ -53,6 +87,10 @@ network structure of roman space
 -- code to keep track of whether or not tghe reader has read all three before letting them see the rules --
 
 [[FORVM]]
+
+----
+
+FORVM
 an introduction to our experience as a case study
 
 [[what we were trying to do]]
@@ -65,13 +103,21 @@ an introduction to our experience as a case study
 
 [[conclusion]]
 
-
 and also a link to walk through [[A Complete Turn]]
+
+----
+Conclusion
 Double-click this passage to edit it.
 
 [[appendix: workshopping a boardgame]]
-Double-click this passage to edit it.
-Double-click this passage to edit it.
-Double-click this passage to edit it.
-Double-click this passage to edit it.
-Double-click this passage to edit it.
+-----
+what we were trying to do
+
+----
+historical context
+
+-----
+then discussion that references the rules - with links through to the relevant rules
+
+----
+playtest feedback
