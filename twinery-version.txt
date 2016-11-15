@@ -1,0 +1,77 @@
+FORVM RULES
+
+[[1. move]]
+
+[[2. social intrigues]]
+
+[[3. trade]]
+
+[[4. build or destroy or benfaction]]
+
+[[5. assess the outcome]]
+description of the rule
+
+[[justification for the movement rules]]
+Double-click this passage to edit it.
+Double-click this passage to edit it.
+Double-click this passage to edit it.
+Double-click this passage to edit it.
+costs of travel
+
+network structure of roman space
+
+
+[[FORVM]]
+[[Board Game]]|[[ABM]]|[[Video Game]]
+
+<img src="http://i.imgur.com/ocxehBk.png">
+
+-- code to keep track of whether or not tghe reader has read all three before letting them see the rules --
+
+
+[[Board Game]]
+
+[[Video Game]]
+
+-- code to keep track of whether or not tghe reader has read all three before letting them see the rules --
+
+[[FORVM]]
+[[ABM]]
+
+
+
+[[Video Game]]
+
+-- code to keep track of whether or not tghe reader has read all three before letting them see the rules --
+
+[[FORVM]]
+[[ABM]]
+
+
+[[Board Game]]
+
+-- code to keep track of whether or not tghe reader has read all three before letting them see the rules --
+
+[[FORVM]]
+an introduction to our experience as a case study
+
+[[what we were trying to do]]
+
+[[historical context]]
+
+[[then discussion that references the rules - with links through to the relevant rules]]
+
+[[playtest feedback]]
+
+[[conclusion]]
+
+
+and also a link to walk through [[A Complete Turn]]
+Double-click this passage to edit it.
+
+[[appendix: workshopping a boardgame]]
+Double-click this passage to edit it.
+Double-click this passage to edit it.
+Double-click this passage to edit it.
+Double-click this passage to edit it.
+Double-click this passage to edit it.
