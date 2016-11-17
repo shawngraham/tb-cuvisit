@@ -11,7 +11,7 @@
 
 <tw-story></tw-story>
 
-<tw-storydata name="FORVM RULES" startnode="8" creator="Twine" creator-version="2.0.11" ifid="20C47E38-C72C-4EFA-8F8E-306A164CD189" format="Harlowe" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
+<tw-storydata name="FORVM RULES" startnode="7" creator="Twine" creator-version="2.0.11" ifid="20C47E38-C72C-4EFA-8F8E-306A164CD189" format="Harlowe" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
 /* Style sheet for Internet Archaeology. Updated 14 Jan 2014 JCW */
 
 
@@ -257,6 +257,15 @@ div.navtoc p {color: #823047; font-size: 0.8em; padding: 0.25em; margin: 0; font
 #navbar li a {display: block; margin: 0; padding: 0.25em; border-left: 1em solid #aab; text-decoration: none; width: 100%; color: #000; border-top: solid #ccc 1px; width: 12em}
 #navbar li a:hover, #navbar li a:focus, #navbar li a:active {border-color: #304782; color: #000; background: #eee}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Walkthrough" tags="" position="1396,1016">[[Project Aims]]|[[Archaeological &amp; Historical Contexts]]|[[Rules &amp; Justifications]]|[[Playtest Feedback]]|[[Conclusion]]
 
+In FORVM, players compete to become the most prestigious Roman by having their agents engage in trade in markets across the Roman Empire. In each turn, agents are set out one step at a time across the network of markets to establish horrea (warehouses) or destroy other players&#39; horrea, negotiate alliances or break them apart, establish a presence in a region or prevent another agent from accessing it.
+
+Trade functions through every market where a player has established a warehouse. The further from Rome, the higher the transport and information costs and the lower the profit. But agents who are connected back to Rome are better informed, and so can get a better return. At the edges of Empire fortunes can be made accessing the wealth of the East, the South, or the North!
+
+Money is not the only way for a player to grow in prestige; a combination of clever board control and alliances and benefactions allow a player to move up the cursus honorum (prestige ladder) to become Consul! But fate will always play a role, and can upset the most intricate of plans.
+
+Summary of the Rules - the phases below are performed in turn by each player.
+
+[[Aim of the Game &amp; Setup]]
 
 [[1. move]]
 
@@ -266,22 +275,150 @@ div.navtoc p {color: #823047; font-size: 0.8em; padding: 0.25em; margin: 0; font
 
 [[4. build or destroy or benfaction]]
 
-[[5. assess the outcome]]
+[[5. draw fate, translate money into prestige]]
+
+[[6. check for victory conditions]] 
 </tw-passagedata>
-<tw-passagedata pid="2" name="1. move" tags="" position="1260,1152">description of the rule
+<tw-passagedata pid="2" name="1. move" tags="" position="1201.6666666666667,1188.3333333333335">## Movement
 
-[[justification for the movement rules]]</tw-passagedata>
-<tw-passagedata pid="3" name="2. social intrigues" tags="" position="1408,1152">Double-click this passage to edit it.</tw-passagedata>
-<tw-passagedata pid="4" name="3. trade" tags="" position="1560,1152">Double-click this passage to edit it.</tw-passagedata>
-<tw-passagedata pid="5" name="4. build or destroy or benfaction" tags="" position="1708,1152">Double-click this passage to edit it.</tw-passagedata>
-<tw-passagedata pid="6" name="5. assess the outcome" tags="" position="1860,1152">Double-click this passage to edit it.</tw-passagedata>
-<tw-passagedata pid="7" name="justification for the movement rules" tags="" position="1060,1120">costs of travel
+- each player has the opportunity at the start of each movment phase to put one more agent on the board. This is accomplished by a [[roll of the die|justification: stochastic elements]] of 4 or higher. A [[new agent|justification: agency]] is placed on [[Rome|justification: Rome]] and may be used this turn, and be moved.
 
-network structure of roman space
+- a player may not have more than one agent on Rome, and so an agent must be moved to an adjacent [[market|justification: market economy]] as part of the 1 move of that agent.
+
+- agents can move [[once per turn as part|justification: time]] of the movement phase.
+
+- agents do not have to move if the player wishes.
+
+- agents move 1 step over the network along the [[links to adjacent cities|justification: geography]].
+
+IN ALL MARKETS except for Rome, there [[can only be ONE agent|justification: playability]].
+HOWEVER:
+	- a player can still move her agent to a market where there is another player&#39;s agent, but this situation MUST be resolved during the &#39;[[Social Intrigues|2. social intrigues]]&#39; phase.
+</tw-passagedata>
+<tw-passagedata pid="3" name="2. social intrigues" tags="" position="1373.3333333333335,1176.6666666666667">## Social Intrigues
+
+- There are [[THREE kinds of social manouevres|justification: social]] that players can engage in:
++ [[MARRIAGE ALLIANCE|justification: social]] with another player
++ MARRIAGE ALLIANCE into the local aristocracy of a market
++ [[OUSTING of Agents|justification: agency]] in a given market
+
+** Marriage alliance with another player 
+
+-  a player can propose a marriage alliance during that player&#39;s social intrigues phase, to any other player.
+- both players must have an [[eligible child|justification: social]] still available for marriage of different gender, e.g, one has a boy, the other has a girl.
+- the two players [[negotiate a price|justification: social]] that the player who initiates the proposal has to pay to the other player.
+- if accepted, both players get [[+2 prestige|justification: social]]
+- players note those children are no longer available for marriage
+- marriages can be [[dissolved|justification: social]]
+- through an appropriate [[FATE|justification: stochastic elements]] card
+- through [[aggressive action|justification: agency]] by one player in the alliance towards the other (OUSTING an agent or [[DESTROYING|justification: agency]] a [[warehouse|justification: market economy]])
+- at the request of one of the players
+- if a marriage is dissolved BOTH players LOSE 2 Prestige in all cases, and the initial price MUST be repayed.
+
+-ADVANTAGES of Marriage Alliance with another player
+	- the presence of one player&#39;s agent on the other player&#39;s  warehouse in the [[TRADE|3. trade]] phase acts as if it were second player&#39;s [[agent as well|justification: info]].
+
+** Marriage alliance into the local aristocracy of a market **
+
+- a player can marry into the &#39;[[local aristocracy|justification: social]]&#39; of a market on which she has an agent when:
+- the player has an elgible family member
+- the player can [[pay $200|justification: social]]
+- no other player has already married into that market&#39;s aristocracy
+- the player&#39;s prestige increases [[+1 prestige|justification: social]]
+- the player makes a note of which child was involved; that child is no longer available for intrigue.
+- the marriage can be dissolved through an appropriate FATE card
+
+-ADVANTAGES of Marriage Alliance with Local Aristocracy
+	- a [[roll|justification: stochastic elements]] to OUST the player&#39;s agent from that market has to be 6.
+	- the allied player can OUST other players from that market with a roll of 2 or higher.
+	- the allied player can [[DESTROY|justification: agency]] another player&#39;s warehouse on the market with a roll of 2 or higher
+
+** OUSTING A PlAYER&#39;S AGENT **
+
+- BECAUSE no market other than Rome can have more than one agent on it by the end of a turn:
+	- a player must oust another player&#39;s agent when both players are on the same market
+	- the player who was the [[SECOND to move|justification: playability]] in the market MUST initiate the ousting procedure
+
+- ousting does not affect warehouses.
+- being ousted DOES NOT dissolve a marriage alliance with the local aristocracy
+
+Procedure:
+	- the OUSTING player [[pays $200|justification: playability]]
+	- the OUSTING player must [[roll 4+|justification: stochastic elements]]
+	- if the OUSTING player has a marriage alliance into the local aristocracy, the [[roll is 2+|justification: stochastic elements]] to remove the other player
+	- if the defending player has a marriage alliance into the local aristocracy, the [[roll|justification: stochastic elements]] must be a 6
+	- the losing player&#39;s agent is [[removed from the board|justification: agency]] (and can be reintroduced during the move phase on a 4+ roll)</tw-passagedata>
+<tw-passagedata pid="4" name="3. trade" tags="" position="1560,1248.3333333333335">## Trade
+
+- the returns on trade depend on [[distance from Rome|justification: geography]] and [[informational uncertainty|justification: info]]
+- the [[return|justification: market economy]] in any one market also depends on the number of [[warehouses|justification: market economy]] exploiting that market; more warehouses lower the profit per player
+- players count up the value for each market they have a warhouse in
+- each market indicates the value available depending on number of warehouse in it
 
 
-[[FORVM]]</tw-passagedata>
-<tw-passagedata pid="8" name="Start: Triangle Diagram" tags="" position="1883.3333333333335,420">&lt;h1 class=&quot;title&quot;&gt;On Analog Simulation&lt;/h1&gt;
+- WHEN a player has an agent IN ROME and in a market with warehouses in BOTH cities, [[informational uncertainty|justification: info]] is REMOVED and the player receives the trade boost for that market, as indicated by the table of values on the board.
+
+- If by the trade phase a player has a [[path|justification: geography]] from ROME to any [[EXOTIC market|justification: market economy]] (ie a warehouse in each market on any path of at least five steps starting in Rome and ending in the exotic market): the player receives the FULL value for the exotic market without having to have an agent present.
+
+- players keep track of their money by moving their token along the [[money ladder|justification: public knowledge]] on the board</tw-passagedata>
+<tw-passagedata pid="5" name="4. build or destroy or benfaction" tags="" position="1716.6666666666667,1228.3333333333335">## Building or destroying a warehouse; making a benefaction
+
+- a player may [[only|justification: time]] BUILD or DESTROY or make a [[BENEFACTION|justification: benefactions]] during this phase
+- a market may only have one [[warehouse|justification: market economy]] per player
+
+** BUILD **
+- a player may only build one warehouse per market
+- a player must have an [[agent|justification: agency]] on that market in order to build there
+- a player may only build one warehouse per turn
+- the player must [[pay $100|justification: market economy]] to build
+- the player receives + 1 [[prestige|justification: prestige]] for that player&#39;s FIRST warehouse in a region
+- the player receives + 1 [[prestige|justification: prestige]] for each FIVE warehouses of that player in a region
+- if the player puts a warehouse in EVERY market in a region that player receives + 2 [[prestige|justification: prestige]]
+
+** DESTROY **
+- a player may [[choose|justification: agency]] to [[DESTROY|justification: market economy]] another player&#39;s warehouse in a market
+- the player must pay $200
+- the player must [[roll|justification: stochastic elements]] 4+. If successful, the other player&#39;s warehouse is removed from the board
+- IF the defending player is married into the [[local aristocracy|justification: social]] at that market, the roll must be 6+
+- IF the attacking player is married into the [[local aristocracy|justification: social]] at that market, the roll must be 2+.
+
+** [[BENEFACTIONS|justification: benefactions]] **
+- for each band on the PRESTIGE [[ladder|justification: public knowledge]] [[(Quaestor, Aedile, Praetor)|justification: prestige]] there are three possible benefactions you may give.
+
+- benefactions in the QUAESTOR band cost $200 to give
+- benefactions in the AEDILE band cost $500 to give
+- benefactions in the PRAETOR band cost $1000 to give
+
+- a player can only give one benefaction per turn
+- a player places one of her [[tokens|justification: public knowledge]] on the benefaction&#39;s space on the ladder to indicate that it has been given and that no other player may give that benefection.
+- a player may only give benefactions for the band in which their prestige currently applies, e.g, a player with prestige of 4 may only give benefactions in the QUAESTOR band. If all the benefactions in that band have already been given, that player may not give a benefaction at all until their prestige level allows them to reach [[the next band|justification: benefactions]].
+
+- giving a benefaction results in prestige +1.</tw-passagedata>
+<tw-passagedata pid="6" name="5. draw fate, translate money into prestige" tags="" position="1856.6666666666667,1135">## draw fate; then translate money into prestige
+
+The player who began the TURN draws a [[fate card|justification: stochastic elements]] and reads it to the players. All players take whatever actions or consequences that the fate card specifies. The fate card is then discarded. ([[List of all fate cards]]).
+
+After this, all players translate their respective amounts of [[money into prestige|justification: prestige]].
+
+- when a player&#39;s available money INCREASES past a multiple of $1000 mark as a result of the current turn&#39;s events, the player EARNS 1 prestige.
+- when a player&#39;s available money DECREASES past a multiple of $1000 mark as a result of the current turn&#39;s events, the player LOSES 1 prestige.
+- if a player needs to go into DEBT at any PHASE of a turn, the player loses 1 prestige per $100.
+- Prestige cannot go below 0.
+
+## Summary of actions that affect prestige throughout the game
+
+- marriage alliance accepted from another player: + 2 both players
+- marriage alliance dissolved: - 2 both players
+- marriage into local aristocracy: + 1
+- first warehouse in a province: + 1
+- five warehouses in a province: + 1
+- warehouses in every market in a region: + 2
+- benefaction: + 1
+- end of each turn increase of money past a multiple of $1000: + 1
+- end of each turn decrease of money past a multiple of $1000: - 1
+- debt per $100: - 1
+- if you lose your only warehouse in a given region, you lose 1 prestige.</tw-passagedata>
+<tw-passagedata pid="7" name="Start: Triangle Diagram" tags="" position="1883.3333333333335,420">&lt;h1 class=&quot;title&quot;&gt;On Analog Simulation&lt;/h1&gt;
 &lt;h2&gt;Tom Brughmans, Iza Romanowska, and Shawn Graham&lt;/h2&gt;
 
 &lt;h3 class=&quot;summarybar&quot;&gt;Summary&lt;/h3&gt;
@@ -298,7 +435,7 @@ Agent Based Models (ABM), video games, and board games, are all aspects of a par
 
 [[Board Game]]|[[ABM]]|[[Video Game]]
 </tw-passagedata>
-<tw-passagedata pid="9" name="ABM" tags="" position="1595,673.3333333333334">(set: $abm to true)
+<tw-passagedata pid="8" name="ABM" tags="" position="1595,673.3333333333334">(set: $abm to true)
 (set: $score to $score + 1)
 
 An agent based model is a kind of game where the artificial intelligence acts as **both** the referee **and** the player.
@@ -308,7 +445,7 @@ An agent based model is a kind of game where the artificial intelligence acts as
 Your score is $score. How odd, that simple movement through the paths of this text, should be scored. 
 
 (if: $abm and $boardgame and $videogame)[It wasn&#39;t just about score; you also had to visit all the possibility space before the conditions were met. Now, let&#39;s open up the rulebook for [[FORVM]] ]</tw-passagedata>
-<tw-passagedata pid="10" name="Board Game" tags="" position="1875,973.3333333333334">(set: $boardgame to true)
+<tw-passagedata pid="9" name="Board Game" tags="" position="1875,973.3333333333334">(set: $boardgame to true)
 (set: $score to $score + 1)
 
 A board game is a kind of simulation where the humans are both the referees and the players.
@@ -318,7 +455,7 @@ A board game is a kind of simulation where the humans are both the referees and 
 Your score is $score. When you reach a certain threshold, you&#39;ll be able to move beyond this section.
 
 (if: $abm and $boardgame and $videogame)[It wasn&#39;t just about score; you also had to visit all the possibility space before the conditions were met. Now, let&#39;s open up the rulebook for [[FORVM]] ]</tw-passagedata>
-<tw-passagedata pid="11" name="Video Game" tags="" position="2176.666666666667,670">(set: $videogame to true)
+<tw-passagedata pid="10" name="Video Game" tags="" position="2176.666666666667,670">(set: $videogame to true)
 (set: $score to $score + 1)
 
 A video game is a simulation where the computer is the referee and the human is the player.
@@ -328,13 +465,13 @@ A video game is a simulation where the computer is the referee and the human is 
 Your score is $score. Like many digital things, your path through this text is watching you, assigning differing values to the choices you make. We could say that it is learning.
 
 (if: $abm and $boardgame and $videogame)[It wasn&#39;t just about score; you also had to visit all the possibility space before the conditions were met. Now, let&#39;s open up the rulebook for [[FORVM]] ]</tw-passagedata>
-<tw-passagedata pid="12" name="FORVM" tags="" position="1358.3333333333335,850">[[Project Aims]]|[[Archaeological &amp; Historical Contexts]]|[[Rules &amp; Justifications]]|[[Playtest Feedback]]|[[Walkthrough]]|[[Conclusion]]
+<tw-passagedata pid="11" name="FORVM" tags="" position="1128.3333333333335,648.3333333333334">[[Project Aims]]|[[Archaeological &amp; Historical Contexts]]|[[Rules &amp; Justifications]]|[[Playtest Feedback]]|[[Walkthrough]]|[[Conclusion]]
 
 Simulations are valuable in two distinct ways. In the first, the creation of a simulation forces a formalization, an operationalization, of what we believe to be true about the past. If we write, &#39;many Romans attempted to improve their lot in life through attachment to the household of a higher status individual&#39;, a modeler would ask, &#39;what does &#39;attachment&#39; mean? what does &#39;status&#39; mean? how does &#39;attachment&#39; work? what does &#39;to improve&#39; imply?&#39; and so on. Models and simulations work best in our view when they are focussed on operationalizing a limited number of phenomena. This is because of the second valuable aspect of simulation: by enabling us to &#39;re-run&#39; history under different conditions, we can begin to see the landscape of possible emergent outcomes this operationalized description of the past implies. To recap: simulation forces us to formalize what we believe about the past; and it allows the consequences of those formalizations to be systematically explored. The job of the modeler after running the simulation is to use that landscape of possibilities to better understand the past, the errors in the formalization, or to circumscribe our understanding of the various likely starting positions.
 
 A board game is another species of simulation. Indeed, one could argue that a simulation is a game that plays itself. A board-game-as-simulation therefore removes the impartial computational referee, and forces the players to interpret, understand, and contest the formalization recorded in the rules of the game. A board game is therefore a kind of &#39;analog simulation&#39;, in that it admits a lot of noisiness in the operations of its processes. A board game is also a valuable pedagogical tool in that it reveals the tyranny of algorithms and encourages players to play with the rules, challenge the rules, or even, re-write the rules.
 </tw-passagedata>
-<tw-passagedata pid="13" name="Conclusion" tags="" position="1138.3333333333335,893.3333333333334">In the creation of a computational simulation, the manner in which a historical or social phenomenon is operationalized literally encodes the modelers&#39; understanding of how the past works: it is a kind of procedural rhetoric (in Bogost&#39;s felicitous phrasing, 2007). In creating an &#39;analog simulation&#39;, the equivalent idea is in terms of &#39;playability&#39;. Board games require balancing of both positive and negative feedback loops (and considering the consequences when various loops intersect, as in the consequences of &#39;fate cards&#39;, for instance) in order to create the particular dynamic where in any given play-through, any given player might win - this is what we mean by playability. What makes the winner is the player&#39;s understanding of the rules, and her ability to deduce a winning strategy within them. We have made decisions at times in the writing of the rules where we considered multiple arguments about the past but chose to implement the idea we felt was the best compromise between faithfulness of the broad strokes of Roman society and playability.
+<tw-passagedata pid="12" name="Conclusion" tags="" position="968.3333333333334,893.3333333333334">In the creation of a computational simulation, the manner in which a historical or social phenomenon is operationalized literally encodes the modelers&#39; understanding of how the past works: it is a kind of procedural rhetoric (in Bogost&#39;s felicitous phrasing, 2007). In creating an &#39;analog simulation&#39;, the equivalent idea is in terms of &#39;playability&#39;. Board games require balancing of both positive and negative feedback loops (and considering the consequences when various loops intersect, as in the consequences of &#39;fate cards&#39;, for instance) in order to create the particular dynamic where in any given play-through, any given player might win - this is what we mean by playability. What makes the winner is the player&#39;s understanding of the rules, and her ability to deduce a winning strategy within them. We have made decisions at times in the writing of the rules where we considered multiple arguments about the past but chose to implement the idea we felt was the best compromise between faithfulness of the broad strokes of Roman society and playability.
 
 We expect that players familiar with the details of any particular element we have simulated will dispute the choices that we have made. We welcome this: a simulation is only as valuable as it is a stimulation to further thought and argument and so when you find something that you feel strongly is the wrong choice on our part, we encourage you to re-write the rules, to challenge the algorithm, and develop (and justify) your own &#39;house&#39; rules.
 
@@ -342,9 +479,13 @@ Then: consider the outcome to your game. How is it better? How is it worse? What
 
 Simulation is a space, a landscape of outcomes. We look forward to hearing of your own explorations.
 
-[[appendix: workshopping a boardgame]]</tw-passagedata>
-<tw-passagedata pid="14" name="appendix: workshopping a boardgame" tags="" position="876.6666666666667,896.6666666666667">Double-click this passage to edit it.</tw-passagedata>
-<tw-passagedata pid="15" name="Project Aims" tags="" position="903.3333333333334,720">[[Archaeological &amp; Historical Contexts]]|[[Rules &amp; Justifications]]|[[Playtest Feedback]]|[[Walkthrough]]|[[Conclusion]]
+[[appendix: workshopping a boardgame]]
+
+
+sg thought: keep track throughout what the reader has read, in order to make some meta point that reminds the reader about the differences between boardgames, videogames, abm, digital literacy etc.
+tb thougth: representation of the article as a kind of map, showing the reader where they are and where they&#39;ve come from?</tw-passagedata>
+<tw-passagedata pid="13" name="appendix: workshopping a boardgame" tags="" position="466.6666666666667,905">Double-click this passage to edit it.</tw-passagedata>
+<tw-passagedata pid="14" name="Project Aims" tags="" position="800,686.6666666666667">[[Archaeological &amp; Historical Contexts]]|[[Rules &amp; Justifications]]|[[Playtest Feedback]]|[[Walkthrough]]|[[Conclusion]]
 
 Forum is a boardgame based on current theories of the functioning of the Roman economy, and also draws on the independent research agendas of Brughmans and Graham (see bibliography). Forum aims to highlight the integration, impact, and interplay of both physical transport networks and social networks, as well as the interwoven roles of money and prestige.
 
@@ -357,9 +498,95 @@ Aristocrats were not directly involved in trade themselves. That is to say, they
 You also support your agents by ensuring they are well informed about the prices, supplies and demands of goods in different markets around the empire. The physical distance between markets in the huge Roman Empire affected the availability and reliability of commercial information current at different markets. It was key to establish reliable social networks between commercial agents to ensure they could remained well informed about current prices and could get the best deal at different markets outside Rome (see for instance the work of Laurence, xxxx on &#39;space-economy&#39;). In Forum, this is reflected in the trade boost agents at markets with a warehouse get if you also have an agent and a warehouse in Rome: a secure communication link is established between your home base in Rome and your warehouse at a market, your agent there is better informed and consequentially can get a better deal at the market (hence the trade boost which mitigates the money lost through transportation and making trade more profitable).
 
 The games of Roman prestige, of patronage and client-ship, depended on seeing and being seen to have economic power, or to wield influence. Traditionally, this game of seeing and being seen played out in the ritual of the morning salutatio where clients presented themselves to their patron each morning; patrons would receive clients in the order of their prestige. The procession to the Forum of a morning of a patron with his clients was therefore an opportunity to signal to others the number and quality of one&#39;s clients and hence likely political power. Similarly, the Roman aristocracy could signal their power and prestige by their ability to command resources for the construction of temples or other urban architecture. This &#39;competitive building&#39; reached its apotheosis in the urban renewal and building projects of the late Republic, but of course it could also find its outlet in the renovation of temples, basilica, and so on, or in donations of food, or the giving of games. In Forum a player&#39;s prestige and their current wealth is prominently displayed on the board, so that players can take into account others&#39; wealth and standing as they formulate their strategies. Similarly, marriages and strategic divorce was a weapon that elite Romans wielded to great effect, to heighten prestige, to enable advantage, or compel lesser individuals to bend to the patron&#39;s will. Roman marriage is an extremely complicated institution, and depends very much on the social context of the individuals involved. In the version that we imagine here, the &#39;children&#39; of the player are pawns to be traded to protect interests or to obtain advantages. The dissolution of marriage carries consequences that broadly are in line with what we know about the marriages and divorces of high ranking individuals.</tw-passagedata>
-<tw-passagedata pid="16" name="Archaeological &amp; Historical Contexts" tags="" position="1068.3333333333335,646.6666666666667">[[Project Aims]]|[[Rules &amp; Justifications]]|[[Playtest Feedback]]|[[Walkthrough]]|[[Conclusion]]</tw-passagedata>
-<tw-passagedata pid="17" name="Rules &amp; Justifications" tags="" position="1273.3333333333335,610">[[Project Aims]]|[[Archaeological &amp; Historical Contexts]]|[[Playtest Feedback]]|[[Walkthrough]]|[[Conclusion]]</tw-passagedata>
-<tw-passagedata pid="18" name="Playtest Feedback" tags="" position="1416.6666666666667,646.6666666666667">[[Project Aims]]|[[Archaeological &amp; Historical Contexts]]|[[Rules &amp; Justifications]]|[[Walkthrough]]|[[Conclusion]]</tw-passagedata>
+<tw-passagedata pid="15" name="Archaeological &amp; Historical Contexts" tags="" position="955,440">[[Project Aims]]|[[Rules &amp; Justifications]]|[[Playtest Feedback]]|[[Walkthrough]]|[[Conclusion]]
+
+
+[[network analysis of Roman connectivity]]</tw-passagedata>
+<tw-passagedata pid="16" name="Rules &amp; Justifications" tags="" position="1285,425">[[Project Aims]]|[[Archaeological &amp; Historical Contexts]]|[[Playtest Feedback]]|[[Walkthrough]]|[[Conclusion]]
+
+A summary of the main ideas underpinning things, *how* we tried to get thing across
+
+
+justification for networks:
+justifications for costs:
+
+-crosslink into the walkthrough justification cards?
+
+[[justification: public knowledge]] 
+[[justification: stochastic elements]] 
+[[justification: agency]] 
+[[justification: geography]] 
+[[justification: playability]] 
+[[justification: market economy]] 
+[[justification: time]] 
+[[justification: social]] 
+[[justification: prestige]] 
+[[justification: info]] 
+[[justification: benefactions]] 
+[[justification: placenames]] </tw-passagedata>
+<tw-passagedata pid="17" name="Playtest Feedback" tags="" position="1465,593.3333333333334">[[Project Aims]]|[[Archaeological &amp; Historical Contexts]]|[[Rules &amp; Justifications]]|[[Walkthrough]]|[[Conclusion]]</tw-passagedata>
+<tw-passagedata pid="18" name="Aim of the Game &amp; Setup" tags="" position="1018.3333333333334,1236.6666666666667">## Aim of the Game
+Become the [[most prestigious Roman|justification: prestige]] through trade and treachery!
+
+- First person to 15 prestige points wins the consulship, and the game.
+
+## Game Set Up
+
+- for 3 to 4 players
+- everyone has $200 to start
+- place each player&#39;s [[money counter|justification: public knowledge]] on the money ladder.
+- each player has a son and daughter; these are not represented by any tokens.
+- shuffle the [[fate cards|justification: stochastic elements]] and place face down on the board
+- prestige for everyone at the start is 0.
+- Place [[prestige counters|justification: public knowledge]] on the prestige ladder on the board.
+- Players may only go into [[debt|justification: public knowledge]], if necessary, in any phase, if they have more than 0 prestige; players may borrow money at the rate of $100 per 1 prestige point.
+- [[roll the dice|justification: stochastic elements]] to determine who will play first. Highest roll wins; play proceeds clockwise.
+- each player has four [[agent|justification: agency]] tokens; each player places one token on [[Rome|justification: Rome]].
+
+## Order of Play
+- the game is played in a [[series of turns|justification: time]]; each turn has a sequence of distinct phases. Each phase is completed in sequence.
+- the [[phases|justification: time]] within a turn are:
+- [[1. move]] 
+- [[2. social intrigues]] 
+- [[3. trade]] 
+- [[4. build or destroy or benfaction]] 
+- [[5. draw fate, translate money into prestige]] 
+- [[6. check for victory conditions]]
+	- Victory conditions are [[assessed at the end of the turn|justification: playability]] if necessary.
+
+If player &#39;Alice&#39; starts the turn, Alice is the first person to do each phase _within_ that turn. All players complete a phase before the next phase begins. Thus, Alice starts, then Alice moves, then Bob, then Charlie. Then Alice does the next phase (&#39;Social Intrigue&#39;), then Bob, then Charlie, and so on.
+
+The next turn &#39;Bob&#39; starts, and then Bob is the first person to do each phase within that turn. Thus, Bob moves his agents, then Charlie, then Alice.</tw-passagedata>
+<tw-passagedata pid="19" name="6. check for victory conditions" tags="" position="2060,1235">[[Victory occurs|justification: playability]] IF a player has achieved 15 prestige points at the END of a turn, after all players have finished the previous phase.
+
+- If two or more players achieved 15 prestige points at the same time, the winner is the player with the most money.
+
+- If there should happen to be a tie in both prestige and money, the winner is the player who gave the most benefactions.</tw-passagedata>
+<tw-passagedata pid="20" name="network analysis of Roman connectivity" tags="" position="588.3333333333334,441.6666666666667">The map board is a distillation of the Orbis Project&#39;s representation of patterns of Roman connectivity. Here, we perform some standard network theoretic measurements to assess the degree our game board matches Orbis&#39;.</tw-passagedata>
+<tw-passagedata pid="21" name="justification: public knowledge" tags="" position="423.33333333333337,1321.6666666666667">Double-click this passage to edit it.</tw-passagedata>
+<tw-passagedata pid="22" name="justification: stochastic elements" tags="" position="415.0001,1446.6666666666667">Double-click this passage to edit it.</tw-passagedata>
+<tw-passagedata pid="23" name="justification: agency" tags="" position="403.33333333333337,1578.3333333333335">Double-click this passage to edit it.</tw-passagedata>
+<tw-passagedata pid="24" name="justification: geography" tags="" position="360,1735">Double-click this passage to edit it.</tw-passagedata>
+<tw-passagedata pid="25" name="justification: playability" tags="" position="346.6666666666667,1885">Double-click this passage to edit it.</tw-passagedata>
+<tw-passagedata pid="26" name="justification: market economy" tags="" position="736.6666666666667,1886.6666666666667">-- also have a link here to [[justification: info]] 
+
+- Bang&#39;s thesis about communities of traders, acting in concert to help each other, but also to deny info, advantage to others, and so &#39;destroying&#39; warehouses is a visceral way of making that evident in the game.
+
+[[justification: placenames]]</tw-passagedata>
+<tw-passagedata pid="27" name="justification: time" tags="" position="980,1890">Double-click this passage to edit it.</tw-passagedata>
+<tw-passagedata pid="28" name="justification: social" tags="" position="1156.6666666666667,1863.3333333333335">Double-click this passage to edit it.
+
+- also have a link to [[justification: prestige]] </tw-passagedata>
+<tw-passagedata pid="29" name="justification: prestige" tags="" position="428.33333333333337,1176.6666666666667">- this should also connect to justification public knowledge</tw-passagedata>
+<tw-passagedata pid="30" name="justification: info" tags="" position="1378.3333333333335,1890">-- should be a link here to [[justification: market economy]] </tw-passagedata>
+<tw-passagedata pid="31" name="justification: benefactions" tags="" position="563.3333333333334,1891.6666666666667">Double-click this passage to edit it.
+
+- not just anybody could give games, etc; depended on your rank, and also whether or not emperor gave the nod
+
+-benefaction discussion probably connects to [[justification: prestige]] and [[justification: public knowledge]] </tw-passagedata>
+<tw-passagedata pid="32" name="justification: placenames" tags="" position="736.6666666666667,2036.6666666666667">Double-click this passage to edit it.</tw-passagedata>
+<tw-passagedata pid="33" name="justification: Rome" tags="" position="395,1051.6666666666667">Double-click this passage to edit it.</tw-passagedata>
+<tw-passagedata pid="34" name="List of all fate cards" tags="" position="1861.6666666666667,1441.6666666666667">Double-click this passage to edit it.</tw-passagedata>
 </tw-storydata>
 
 
