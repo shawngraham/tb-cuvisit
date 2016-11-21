@@ -82,7 +82,7 @@ tp36
 Rp37
 sbsa(dp38
 g14
-I00
+I01
 sg15
 (lp39
 I10
@@ -93,7 +93,7 @@ Tiddler
 p40
 (dp41
 g21
-VOn Analog Simulation\u000a
+VFORVM: Trade Empires of Rome, <font size = "3">or, Board Gaming as Analog Simulation</font>\u000a
 p42
 sg23
 VStoryTitle
@@ -103,9 +103,9 @@ g26
 ((I2016
 I11
 I21
-I14
-I56
-I46
+I16
+I12
+I28
 I0
 I326
 I0
@@ -132,7 +132,7 @@ tp51
 Rp52
 sbsa(dp53
 g14
-I01
+I00
 sg15
 (lp54
 F11.947040498442368
