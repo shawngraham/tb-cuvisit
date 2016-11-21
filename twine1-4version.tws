@@ -85,15 +85,15 @@ g14
 I01
 sg15
 (lp39
-I10
-aI150
+F8.052959501557632
+aF150.0
 asg17
 (itiddlywiki
 Tiddler
 p40
 (dp41
 g21
-VFORVM: Trade Empires of Rome, <font size = "3">or, Board Gaming as Analog Simulation</font>\u000a
+VFORVM: Trade Empires of Rome, <br><font size = "3"><em>or, Board Gaming as Analog Simulation</em></font>\u000a
 p42
 sg23
 VStoryTitle
@@ -104,8 +104,8 @@ g26
 I11
 I21
 I16
-I12
-I28
+I17
+I50
 I0
 I326
 I0
