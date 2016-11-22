@@ -12,7 +12,7 @@ p5
 (dp6
 sS'target'
 p7
-S'sugarcane'
+S'jonah'
 p8
 sS'storyPanel'
 p9
@@ -27,8 +27,8 @@ I00
 sS'pos'
 p15
 (lp16
-I10
-aI10
+F10.0
+aF8.052959501557632
 asS'passage'
 p17
 (itiddlywiki
@@ -37,7 +37,7 @@ p18
 (dp20
 S'text'
 p21
-VIn this work we present a ludic exploration of the rules and rationale behind our experiment in building an analog simulation. That is to say, we built a board game to explore ideas about the Roman social-economy that we had previously tried to explore with agent based models.\u000a\u000aAgent Based Models (ABM), video games, and board games, are all aspects of a particular mode of play, the simulation. The crucial difference between them involves the role of the 'referee' and the role of the 'player'. By referee, we mean the entity charged with making sure the world of the simulation unfolds the way it ought.\u000a\u000a[[Board Game]]|[[ABM]]|[[Video Game]]\u000a
+VWe present a ludic exploration of the rules and rationale behind our experiment in building an analog simulation. That is to say, we built a board game to explore ideas about the Roman social-economy that we had previously tried to explore with agent based models, and then we used the interactive choose-your-own-adventure platform [[Twine|http://twinery.org]] to engage you playfully in the reading of that exploration.\u000a\u000aAgent Based Models (ABM), video games, and board games, are all aspects of a particular mode of play, the simulation. The crucial difference between them involves the role of the 'referee' and the role of the 'player'. By referee, we mean the entity charged with making sure the world of the simulation unfolds the way it ought.\u000a\u000a[[Board Game]]|[[ABM]]|[[Video Game]]\u000a
 p22
 sS'title'
 p23
@@ -51,9 +51,9 @@ p26
 ((I2016
 I11
 I21
-I14
-I28
-I36
+I21
+I3
+I7
 I0
 I326
 I0
@@ -143,7 +143,7 @@ Tiddler
 p55
 (dp56
 g21
-V<font size = "5">T. Brughmans, I. Romanowska, & S. Graham<br><img src="https://raw.githubusercontent.com/shawngraham/tb-cuvisit/master/ludic-triangle2.png"> \u000a<bold>Your current score:<<$score>>.</bold></font><br> If you don't see a link to the appendix on the conclusion page, you've missed something.<br>You can use the 'back' button on your browser to rewind.
+V<font size = "5">T. Brughmans, I. Romanowska, & S. Graham<br><img src="https://raw.githubusercontent.com/shawngraham/tb-cuvisit/master/ludic-triangle2.png"> </font>\u000a
 p57
 sg23
 VStoryAuthor
@@ -153,9 +153,9 @@ g26
 ((I2016
 I11
 I21
-I20
-I38
-I28
+I21
+I39
+I42
 I0
 I326
 I0
@@ -193,7 +193,7 @@ Tiddler
 p70
 (dp71
 g21
-V<<if visited() is 1>><<set $score to $score + 1>><<endif>>\u000a\u000aA video game is a simulation where the computer is the referee and the human is the player. (Your score is <<$score>>. Like many digital things, your path through this text is watching you, assigning differing values to the choices you make. We could say that it is learning.)\u000a\u000a<<if visited ("ABM") < 1>>[[ABM]]<<endif>> <<if visited ("Board Game") < 1>>[[Board Game]]<<endif>>\u000a\u000a<<if visited ("ABM", "Board Game", "Video Game")>>This article is tracking your reading; it is keeping score, and revealing or hiding passages based on whether or not you've explored all of its possibility space. Since you've explored all three points on our ludic traingle, let's open up the rulebook for [[FORVM]] to explore the logic and implementation of this so-called 'analog simulation'.<<endif>>\u000a\u000a
+V<<if visited() is 1>><<set $score to $score + 1>><<endif>>\u000a\u000aA video game is a simulation where the computer is the referee and the human is the player. (Your score is <<$score>>. Like many digital things, your path through this text is watching you, assigning differing values to the choices you make. We could say that it is learning.)\u000a\u000a<<if visited ("ABM") < 1>>[[ABM]] | <<endif>> <<if visited ("Board Game") < 1>>[[Board Game]]<<endif>>\u000a\u000a<<if visited ("ABM", "Board Game", "Video Game")>>This article is tracking your reading; it is keeping score, and revealing or hiding passages based on whether or not you've explored all of its possibility space. Since you've explored all three points on our ludic traingle, let's open up the rulebook for [[FORVM]] to explore the logic and implementation of this so-called 'analog simulation'.<<endif>>\u000a\u000a
 p72
 sg23
 VVideo Game
@@ -203,9 +203,9 @@ g26
 ((I2016
 I11
 I21
-I14
-I5
-I10
+I21
+I3
+I37
 I0
 I326
 I0
@@ -243,7 +243,7 @@ Tiddler
 p85
 (dp86
 g21
-V<<if visited() is 1>><<set $score to $score + 1>><<endif>>\u000a\u000aA board game is a kind of simulation where the humans are both the referees and the players. (Your score is <<$score>>. When you reach a certain threshold, you'll be able to move beyond this section.)\u000a\u000a<<if visited ("ABM") < 1>>[[ABM]]<<endif>> <<if visited ("Video Game") < 1>>[[Video Game]]<<endif>>\u000a\u000a<<if visited ("ABM", "Board Game", "Video Game")>>This article is tracking your reading; it is keeping score, and revealing or hiding passages based on whether or not you've explored all of its possibility space. Since you've explored all three points on our ludic traingle, let's open up the rulebook for [[FORVM]] and explore how this so-called 'analog simulation' may work.<<endif>>
+V<<if visited() is 1>><<set $score to $score + 1>><<endif>>\u000a\u000aA board game is a kind of simulation where the humans are both the referees and the players. (Your score is <<$score>>. When you reach a certain threshold, you'll be able to move beyond this section.)\u000a\u000a<<if visited ("ABM") < 1>>[[ABM]] | <<endif>> <<if visited ("Video Game") < 1>>[[Video Game]]<<endif>>\u000a\u000a<<if visited ("ABM", "Board Game", "Video Game")>>This article is tracking your reading; it is keeping score, and revealing or hiding passages based on whether or not you've explored all of its possibility space. Since you've explored all three points on our ludic traingle, let's open up the rulebook for [[FORVM]] and explore how this so-called 'analog simulation' may work.<<endif>>
 p87
 sg23
 VBoard Game
@@ -253,9 +253,9 @@ g26
 ((I2016
 I11
 I21
-I14
-I5
-I17
+I21
+I3
+I42
 I0
 I326
 I0
@@ -293,7 +293,7 @@ Tiddler
 p100
 (dp101
 g21
-V<<if visited() is 1>><<set $score to $score + 1>><<endif>>\u000a\u000aAn agent based model is a kind of game where the artificial intelligence acts as **both** the referee **and** the player. (Your score is <<$score>>. How odd, that simple movement through the paths of this text, should be scored. )\u000a\u000a<<if visited ("Board Game") <1>>[[Board Game]]<<endif>> <<if visited ("Video Game") < 1 >> [[Video Game]] <<endif>>\u000a\u000a<<if visited ("ABM", "Board Game", "Video Game")>>This article is tracking your reading; it is keeping score, and revealing or hiding passages based on whether or not you've explored all of its possibility space. Since you've explored all three points on our ludic traingle, let's open up the rulebook for [[FORVM]] to see how these observations on game are instantiated.<<endif>>\u000a\u000a
+V<<if visited() is 1>><<set $score to $score + 1>><<endif>>\u000a\u000aAn agent based model is a kind of game where the artificial intelligence acts as **both** the referee **and** the player. (Your score is <<$score>>. How odd, that simple movement through the paths of this text, should be scored. )\u000a\u000a<<if visited ("Board Game") <1>>[[Board Game]] | <<endif>> <<if visited ("Video Game") < 1 >> [[Video Game]] <<endif>>\u000a\u000a<<if visited ("ABM", "Board Game", "Video Game")>>This article is tracking your reading; it is keeping score, and revealing or hiding passages based on whether or not you've explored all of its possibility space. Since you've explored all three points on our ludic traingle, let's open up the rulebook for [[FORVM]] to see how these observations on game are instantiated.<<endif>>\u000a\u000a
 p102
 sg23
 VABM
@@ -303,9 +303,9 @@ g26
 ((I2016
 I11
 I21
-I14
-I4
-I56
+I21
+I3
+I27
 I0
 I326
 I0
@@ -1371,7 +1371,7 @@ tp423
 Rp424
 sbsa(dp425
 g14
-I01
+I00
 sg15
 (lp426
 F126.44859813084102
@@ -1864,9 +1864,9 @@ g26
 ((I2016
 I11
 I21
-I20
-I53
-I12
+I21
+I37
+I41
 I0
 I326
 I0
@@ -1876,7 +1876,7 @@ tp573
 Rp574
 sg31
 (lp575
-Vstylesheet
+Vold-stylesheet
 p576
 asg33
 g26
@@ -2121,10 +2121,162 @@ S'Twine.image'
 p649
 asg33
 g647
+sbsa(dp650
+g14
+I00
+sg15
+(lp651
+F1135.2087227414331
+aF163.55140186915887
+asg17
+(itiddlywiki
+Tiddler
+p652
+(dp653
+g21
+Vspan.smaller > img {\u000a	width: 75%;\u000a}\u000a\u000a
+p654
+sg23
+Vnew stylesheet
+p655
+sg25
+g26
+((I2016
+I11
+I21
+I21
+I56
+I16
+I0
+I326
+I0
+tp656
+(dp657
+tp658
+Rp659
+sg31
+(lp660
+Vstylesheet
+p661
+asg33
+g26
+((I2016
+I11
+I21
+I21
+I41
+I7
+I0
+I326
+I0
+tp662
+(dp663
+tp664
+Rp665
+sbsa(dp666
+g14
+I00
+sg15
+(lp667
+F10.006230529594864
+aF616.1869158878507
+asg17
+(itiddlywiki
+Tiddler
+p668
+(dp669
+g21
+V<p>An Ergodic Article</p><bold>Your current score:<<$score>>.</bold><br>\u000a[[What's this?]]
+p670
+sg23
+VStoryMenu
+p671
+sg25
+g26
+((I2016
+I11
+I21
+I22
+I0
+I43
+I0
+I326
+I0
+tp672
+(dp673
+tp674
+Rp675
+sg31
+(lp676
+sg33
+g26
+((I2016
+I11
+I21
+I21
+I56
+I18
+I0
+I326
+I0
+tp677
+(dp678
+tp679
+Rp680
+sbsa(dp681
+g14
+I01
+sg15
+(lp682
+F6.672897196261635
+aF739.9657320872277
+asg17
+(itiddlywiki
+Tiddler
+p683
+(dp684
+g21
+VWe all read articles differently; every read-through is also a play-through. The score counter keeps track of passages you've read, and sometimes it will go down if you've tried a short-cut. It can also shoot up if you come across a passage we feel is particularly important. It can also get out of sync if you scroll back up your unique version of this article and try a different branch. This article then is a work of ergodic literature.\u000a\u000aIf you feel stuck, try moving through any obvious sequences in the text.
+p685
+sg23
+VWhat's this?
+p686
+sg25
+g26
+((I2016
+I11
+I21
+I22
+I4
+I31
+I0
+I326
+I0
+tp687
+(dp688
+tp689
+Rp690
+sg31
+(lp691
+sg33
+g26
+((I2016
+I11
+I21
+I22
+I0
+I47
+I0
+I326
+I0
+tp692
+(dp693
+tp694
+Rp695
 sbsasS'scale'
-p650
+p696
 F0.5136
 sS'snapping'
-p651
+p697
 I00
 ss.
