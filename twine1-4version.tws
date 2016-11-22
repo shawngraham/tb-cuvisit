@@ -1371,7 +1371,7 @@ tp423
 Rp424
 sbsa(dp425
 g14
-I00
+I01
 sg15
 (lp426
 F126.44859813084102
@@ -1382,7 +1382,7 @@ Tiddler
 p427
 (dp428
 g21
-V<h2>Victory?</h2>\u000a\u000a[[Victory occurs|justification: playability]] IF a player has achieved 15 prestige points at the END of a turn, after all players have finished the previous phase.\u000a\u000a- If two or more players achieved 15 prestige points at the same time, the winner is the player with the most money.\u000a\u000a- If there should happen to be a tie in both prestige and money, the winner is the player who gave the most benefactions.\u000a\u000a[[1. move]] ~ [[2. social intrigues]] ~ [[3. trade]]  ~ [[4. build or destroy or benefaction]] ~ [[5. draw fate, translate money into prestige]] ~ [[6. check for victory conditions]]\u000a\u000a<<if visited ("Aim of the Game & Setup", "1. move", "2. social intrigues", "3. trade", "4. build or destroy or benefaction", "5. draw fate, translate money into prestige")>> Your score has increased by ten points. <<set $score to $score + 10>> It currently is <<$score>>. How many other readers have achieved this? <br><br>[[Project Aims]]|[[Archaeological & Historical Contexts]]|[[Rules & Justifications]]|[[Playtest Feedback]]|[[Walkthrough]]|[[Conclusion]]<<endif>>\u000a\u000a<<if visited() is 1>><<set $score to $score + 1>><<endif>>
+V<h2>Victory?</h2>\u000a\u000a[[Victory occurs|justification: playability]] IF a player has achieved 15 prestige points at the END of a turn, after all players have finished the previous phase.\u000a\u000a- If two or more players achieved 15 prestige points at the same time, the winner is the player with the most money.\u000a\u000a- If there should happen to be a tie in both prestige and money, the winner is the player who gave the most benefactions.\u000a\u000a[[Aim of the Game|Aim of the Game & Setup]] ~ [[1. move]] ~ [[2. social intrigues]] ~ [[3. trade]]  ~ [[4. build or destroy or benefaction]] ~ [[5. draw fate, translate money into prestige]] ~ [[6. check for victory conditions]]\u000a\u000a<<if visited ("Aim of the Game & Setup", "1. move", "2. social intrigues", "3. trade", "4. build or destroy or benefaction", "5. draw fate, translate money into prestige")>> Your score has increased by ten points. <<set $score to $score + 10>> It currently is <<$score>>. How many other readers have achieved this? <br><br>[[Project Aims]]|[[Archaeological & Historical Contexts]]|[[Rules & Justifications]]|[[Playtest Feedback]]|[[Walkthrough]]|[[Conclusion]]<<endif>>\u000a\u000a<<if visited() is 1>><<set $score to $score + 1>><<endif>>
 p429
 sg23
 V6. check for victory conditions
@@ -1393,8 +1393,8 @@ g26
 I11
 I21
 I20
-I22
-I41
+I58
+I18
 I0
 I326
 I0
@@ -1432,7 +1432,7 @@ Tiddler
 p442
 (dp443
 g21
-V<h2> Building or destroying a warehouse; making a benefaction </h2>\u000a\u000a- a player may [[only|justification: time]] BUILD or DESTROY or make a [[BENEFACTION|justification: benefactions]] during this phase\u000a- a market may only have one [[warehouse|justification: market economy]] per player\u000a\u000a<b>BUILD</b>\u000a- a player may only build one warehouse per market\u000a- a player must have an [[agent|justification: agency]] on that market in order to build there\u000a- a player may only build one warehouse per turn\u000a- the player must [[pay $100|justification: market economy]] to build\u000a- the player receives + 1 [[prestige|justification: prestige]] for that player's FIRST warehouse in a region\u000a- the player receives + 1 [[prestige|justification: prestige]] for each FIVE warehouses of that player in a region\u000a- if the player puts a warehouse in EVERY market in a region that player receives + 2 [[prestige|justification: prestige]]\u000a\u000a<b>DESTROY</b>\u000a- a player may [[choose|justification: agency]] to [[DESTROY|justification: market economy]] another player's warehouse in a market\u000a- the player must pay $200\u000a- the player must [[roll|justification: stochastic elements]] 4+. If successful, the other player's warehouse is removed from the board\u000a- IF the defending player is married into the [[local aristocracy|justification: social]] at that market, the roll must be 6+\u000a- IF the attacking player is married into the [[local aristocracy|justification: social]] at that market, the roll must be 2+.\u000a\u000a<b>[[BENEFACTIONS|justification: benefactions]]</b>\u000a- for each band on the PRESTIGE [[ladder|justification: public knowledge]] [[(Quaestor, Aedile, Praetor)|justification: prestige]] there are three possible benefactions you may give.\u000a\u000a- benefactions in the QUAESTOR band cost $200 to give\u000a- benefactions in the AEDILE band cost $500 to give\u000a- benefactions in the PRAETOR band cost $1000 to give\u000a\u000a- a player can only give one benefaction per turn\u000a- a player places one of her [[tokens|justification: public knowledge]] on the benefaction's space on the ladder to indicate that it has been given and that no other player may give that benefection.\u000a- a player may only give benefactions for the band in which their prestige currently applies, e.g, a player with prestige of 4 may only give benefactions in the QUAESTOR band. If all the benefactions in that band have already been given, that player may not give a benefaction at all until their prestige level allows them to reach [[the next band|justification: benefactions]].\u000a\u000a- giving a benefaction results in prestige +1.\u000a\u000a[[1. move]] ~ [[2. social intrigues]] ~ [[3. trade]]  ~ [[4. build or destroy or benefaction]] ~ [[5. draw fate, translate money into prestige]] ~ [[6. check for victory conditions]]\u000a\u000a<<if visited() is 1>><<set $score to $score + 1>><<endif>>\u000a
+V<h2> Building or destroying a warehouse; making a benefaction </h2>\u000a\u000a- a player may [[only|justification: time]] BUILD or DESTROY or make a [[BENEFACTION|justification: benefactions]] during this phase\u000a- a market may only have one [[warehouse|justification: market economy]] per player\u000a\u000a<b>BUILD</b>\u000a- a player may only build one warehouse per market\u000a- a player must have an [[agent|justification: agency]] on that market in order to build there\u000a- a player may only build one warehouse per turn\u000a- the player must [[pay $100|justification: market economy]] to build\u000a- the player receives + 1 [[prestige|justification: prestige]] for that player's FIRST warehouse in a region\u000a- the player receives + 1 [[prestige|justification: prestige]] for each FIVE warehouses of that player in a region\u000a- if the player puts a warehouse in EVERY market in a region that player receives + 2 [[prestige|justification: prestige]]\u000a\u000a<b>DESTROY</b>\u000a- a player may [[choose|justification: agency]] to [[DESTROY|justification: market economy]] another player's warehouse in a market\u000a- the player must pay $200\u000a- the player must [[roll|justification: stochastic elements]] 4+. If successful, the other player's warehouse is removed from the board\u000a- IF the defending player is married into the [[local aristocracy|justification: social]] at that market, the roll must be 6+\u000a- IF the attacking player is married into the [[local aristocracy|justification: social]] at that market, the roll must be 2+.\u000a\u000a<b>[[BENEFACTIONS|justification: benefactions]]</b>\u000a- for each band on the PRESTIGE [[ladder|justification: public knowledge]] [[(Quaestor, Aedile, Praetor)|justification: prestige]] there are three possible benefactions you may give.\u000a\u000a- benefactions in the QUAESTOR band cost $200 to give\u000a- benefactions in the AEDILE band cost $500 to give\u000a- benefactions in the PRAETOR band cost $1000 to give\u000a\u000a- a player can only give one benefaction per turn\u000a- a player places one of her [[tokens|justification: public knowledge]] on the benefaction's space on the ladder to indicate that it has been given and that no other player may give that benefection.\u000a- a player may only give benefactions for the band in which their prestige currently applies, e.g, a player with prestige of 4 may only give benefactions in the QUAESTOR band. If all the benefactions in that band have already been given, that player may not give a benefaction at all until their prestige level allows them to reach [[the next band|justification: benefactions]].\u000a\u000a- giving a benefaction results in prestige +1.\u000a\u000a[[Aim of the Game|Aim of the Game & Setup]] ~ [[1. move]] ~ [[2. social intrigues]] ~ [[3. trade]]  ~ [[4. build or destroy or benefaction]] ~ [[5. draw fate, translate money into prestige]] ~ [[6. check for victory conditions]]\u000a\u000a<<if visited() is 1>><<set $score to $score + 1>><<endif>>\u000a
 p444
 sg23
 V4. build or destroy or benefaction
@@ -1443,8 +1443,8 @@ g26
 I11
 I21
 I20
-I21
-I17
+I57
+I59
 I0
 I326
 I0
@@ -1482,7 +1482,7 @@ Tiddler
 p457
 (dp458
 g21
-V<h2> Social Intrigues</h2>\u000a\u000a- There are [[THREE kinds of social manouevres|justification: social]] that players can engage in:\u000a+ [[MARRIAGE ALLIANCE|justification: social]] with another player\u000a+ MARRIAGE ALLIANCE into the local aristocracy of a market\u000a+ [[OUSTING of Agents|justification: agency]] in a given market\u000a\u000a<b>Marriage alliance with another player </b>\u000a\u000a-  a player can propose a marriage alliance during that player's social intrigues phase, to any other player.\u000a- both players must have an [[eligible child|justification: social]] still available for marriage of different gender, e.g, one has a boy, the other has a girl.\u000a- the two players [[negotiate a price|justification: social]] that the player who initiates the proposal has to pay to the other player.\u000a- if accepted, both players get [[+2 prestige|justification: social]]\u000a- players note those children are no longer available for marriage\u000a- marriages can be [[dissolved|justification: social]]\u000a- through an appropriate [[FATE|justification: stochastic elements]] card\u000a- through [[aggressive action|justification: agency]] by one player in the alliance towards the other (OUSTING an agent or [[DESTROYING|justification: agency]] a [[warehouse|justification: market economy]])\u000a- at the request of one of the players\u000a- if a marriage is dissolved BOTH players LOSE 2 Prestige in all cases, and the initial price MUST be repayed.\u000a\u000a-ADVANTAGES of Marriage Alliance with another player\u000a	- the presence of one player's agent on the other player's  warehouse in the [[TRADE|3. trade]] phase acts as if it were second player's [[agent as well|justification: info]].\u000a\u000a<b>Marriage alliance into the local aristocracy of a market</b>\u000a\u000a- a player can marry into the '[[local aristocracy|justification: social]]' of a market on which she has an agent when:\u000a- the player has an elgible family member\u000a- the player can [[pay $200|justification: social]]\u000a- no other player has already married into that market's aristocracy\u000a- the player's prestige increases [[+1 prestige|justification: social]]\u000a- the player makes a note of which child was involved; that child is no longer available for intrigue.\u000a- the marriage can be dissolved through an appropriate FATE card\u000a\u000a-ADVANTAGES of Marriage Alliance with Local Aristocracy\u000a	- a [[roll|justification: stochastic elements]] to OUST the player's agent from that market has to be 6.\u000a	- the allied player can OUST other players from that market with a roll of 2 or higher.\u000a	- the allied player can [[DESTROY|justification: agency]] another player's warehouse on the market with a roll of 2 or higher\u000a\u000a<b>OUSTING A PlAYER'S AGENT</b>\u000a\u000a- BECAUSE no market other than Rome can have more than one agent on it by the end of a turn:\u000a	- a player must oust another player's agent when both players are on the same market\u000a	- the player who was the [[SECOND to move|justification: playability]] in the market MUST initiate the ousting procedure\u000a\u000a- ousting does not affect warehouses.\u000a- being ousted DOES NOT dissolve a marriage alliance with the local aristocracy\u000a\u000aProcedure:\u000a	- the OUSTING player [[pays $200|justification: playability]]\u000a	- the OUSTING player must [[roll 4+|justification: stochastic elements]]\u000a	- if the OUSTING player has a marriage alliance into the local aristocracy, the [[roll is 2+|justification: stochastic elements]] to remove the other player\u000a	- if the defending player has a marriage alliance into the local aristocracy, the [[roll|justification: stochastic elements]] must be a 6\u000a	- the losing player's agent is [[removed from the board|justification: agency]] (and can be reintroduced during the move phase on a 4+ roll)\u000a\u000a[[1. move]] ~ [[2. social intrigues]] ~ [[3. trade]]  ~ [[4. build or destroy or benefaction]] ~ [[5. draw fate, translate money into prestige]] ~ [[6. check for victory conditions]]\u000a\u000a<<if visited() is 1>><<set $score to $score + 1>><<endif>>
+V<h2> Social Intrigues</h2>\u000a\u000a- There are [[THREE kinds of social manouevres|justification: social]] that players can engage in:\u000a+ [[MARRIAGE ALLIANCE|justification: social]] with another player\u000a+ MARRIAGE ALLIANCE into the local aristocracy of a market\u000a+ [[OUSTING of Agents|justification: agency]] in a given market\u000a\u000a<b>Marriage alliance with another player </b>\u000a\u000a-  a player can propose a marriage alliance during that player's social intrigues phase, to any other player.\u000a- both players must have an [[eligible child|justification: social]] still available for marriage of different gender, e.g, one has a boy, the other has a girl.\u000a- the two players [[negotiate a price|justification: social]] that the player who initiates the proposal has to pay to the other player.\u000a- if accepted, both players get [[+2 prestige|justification: social]]\u000a- players note those children are no longer available for marriage\u000a- marriages can be [[dissolved|justification: social]]\u000a- through an appropriate [[FATE|justification: stochastic elements]] card\u000a- through [[aggressive action|justification: agency]] by one player in the alliance towards the other (OUSTING an agent or [[DESTROYING|justification: agency]] a [[warehouse|justification: market economy]])\u000a- at the request of one of the players\u000a- if a marriage is dissolved BOTH players LOSE 2 Prestige in all cases, and the initial price MUST be repayed.\u000a\u000a-ADVANTAGES of Marriage Alliance with another player\u000a	- the presence of one player's agent on the other player's  warehouse in the [[TRADE|3. trade]] phase acts as if it were second player's [[agent as well|justification: info]].\u000a\u000a<b>Marriage alliance into the local aristocracy of a market</b>\u000a\u000a- a player can marry into the '[[local aristocracy|justification: social]]' of a market on which she has an agent when:\u000a- the player has an elgible family member\u000a- the player can [[pay $200|justification: social]]\u000a- no other player has already married into that market's aristocracy\u000a- the player's prestige increases [[+1 prestige|justification: social]]\u000a- the player makes a note of which child was involved; that child is no longer available for intrigue.\u000a- the marriage can be dissolved through an appropriate FATE card\u000a\u000a-ADVANTAGES of Marriage Alliance with Local Aristocracy\u000a	- a [[roll|justification: stochastic elements]] to OUST the player's agent from that market has to be 6.\u000a	- the allied player can OUST other players from that market with a roll of 2 or higher.\u000a	- the allied player can [[DESTROY|justification: agency]] another player's warehouse on the market with a roll of 2 or higher\u000a\u000a<b>OUSTING A PlAYER'S AGENT</b>\u000a\u000a- BECAUSE no market other than Rome can have more than one agent on it by the end of a turn:\u000a	- a player must oust another player's agent when both players are on the same market\u000a	- the player who was the [[SECOND to move|justification: playability]] in the market MUST initiate the ousting procedure\u000a\u000a- ousting does not affect warehouses.\u000a- being ousted DOES NOT dissolve a marriage alliance with the local aristocracy\u000a\u000aProcedure:\u000a	- the OUSTING player [[pays $200|justification: playability]]\u000a	- the OUSTING player must [[roll 4+|justification: stochastic elements]]\u000a	- if the OUSTING player has a marriage alliance into the local aristocracy, the [[roll is 2+|justification: stochastic elements]] to remove the other player\u000a	- if the defending player has a marriage alliance into the local aristocracy, the [[roll|justification: stochastic elements]] must be a 6\u000a	- the losing player's agent is [[removed from the board|justification: agency]] (and can be reintroduced during the move phase on a 4+ roll)\u000a\u000a[[Aim of the Game|Aim of the Game & Setup]] ~ [[1. move]] ~ [[2. social intrigues]] ~ [[3. trade]]  ~ [[4. build or destroy or benefaction]] ~ [[5. draw fate, translate money into prestige]] ~ [[6. check for victory conditions]]\u000a\u000a<<if visited() is 1>><<set $score to $score + 1>><<endif>>
 p459
 sg23
 V2. social intrigues
@@ -1493,8 +1493,8 @@ g26
 I11
 I21
 I20
-I20
-I11
+I57
+I39
 I0
 I326
 I0
@@ -1525,7 +1525,7 @@ I00
 sg15
 (lp471
 F136.37071651090343
-aF577.601246105919
+aF575.6542056074767
 asg17
 (itiddlywiki
 Tiddler
@@ -1582,7 +1582,7 @@ Tiddler
 p487
 (dp488
 g21
-V<h2> Draw fate; then translate money into prestige</h2>\u000a\u000aThe player who began the TURN draws a [[fate card|justification: stochastic elements]] and reads it to the players. All players take whatever actions or consequences that the fate card specifies. The fate card is then discarded. ([[List of all fate cards]]).\u000a\u000aAfter this, all players translate their respective amounts of [[money into prestige|justification: prestige]].\u000a\u000a- when a player's available money INCREASES past a multiple of $1000 mark as a result of the current turn's events, the player EARNS 1 prestige.\u000a- when a player's available money DECREASES past a multiple of $1000 mark as a result of the current turn's events, the player LOSES 1 prestige.\u000a- if a player needs to go into DEBT at any PHASE of a turn, the player loses 1 prestige per $100.\u000a- Prestige cannot go below 0.\u000a\u000a[[Summary of Prestigious Moves]]\u000a\u000a[[1. move]] ~ [[2. social intrigues]] ~ [[3. trade]]  ~ [[4. build or destroy or benefaction]] ~ [[5. draw fate, translate money into prestige]] ~ [[6. check for victory conditions]]\u000a\u000a<<if visited() is 1>><<set $score to $score + 1>><<endif>>\u000a
+V<h2> Draw fate; then translate money into prestige</h2>\u000a\u000aThe player who began the TURN draws a [[fate card|justification: stochastic elements]] and reads it to the players. All players take whatever actions or consequences that the fate card specifies. The fate card is then discarded. ([[List of all fate cards]]).\u000a\u000aAfter this, all players translate their respective amounts of [[money into prestige|justification: prestige]].\u000a\u000a- when a player's available money INCREASES past a multiple of $1000 mark as a result of the current turn's events, the player EARNS 1 prestige.\u000a- when a player's available money DECREASES past a multiple of $1000 mark as a result of the current turn's events, the player LOSES 1 prestige.\u000a- if a player needs to go into DEBT at any PHASE of a turn, the player loses 1 prestige per $100.\u000a- Prestige cannot go below 0.\u000a\u000a[[Summary of Prestigious Moves]]\u000a\u000a[[Aim of the Game|Aim of the Game & Setup]] ~ [[1. move]] ~ [[2. social intrigues]] ~ [[3. trade]]  ~ [[4. build or destroy or benefaction]] ~ [[5. draw fate, translate money into prestige]] ~ [[6. check for victory conditions]]\u000a\u000a<<if visited() is 1>><<set $score to $score + 1>><<endif>>\u000a
 p489
 sg23
 V5. draw fate, translate money into prestige
@@ -1593,8 +1593,8 @@ g26
 I11
 I21
 I20
-I22
-I5
+I58
+I8
 I0
 I326
 I0
@@ -1621,7 +1621,7 @@ tp498
 Rp499
 sbsa(dp500
 g14
-I01
+I00
 sg15
 (lp501
 F139.3302180685357
@@ -1632,7 +1632,7 @@ Tiddler
 p502
 (dp503
 g21
-V<h2> Trade</h2>\u000a\u000aEach player counts up the profit for each market where they have a warehouse and moves their money token accordingly. If more than one warehouse is present on a market the total profit of the location is divided between them - the value that is available for each player for that market is displayed on the board. In the illustration, if 1 player has a warehouse on Rome, that player receives $300; if 2 players, then they EACH get $150; if 3 players then EACH player receives $100.  When a player has an agent in Rome AND in a market with a warehouse, informational uncertainty is removed and the player receives a boost to the profit: 1 - $25; 2 - $50; 3 - $75; 4 - $100, 5 - $125. If the player has a full UNINTERRUPTED trading route from Rome to an exotic market (a market with a 5 in the centre of the node), that is a horreum in each market city on a network path between Rome and an exotic market the player receives the profit boost for the exotic market ONLY without having to have an agent present.\u000a\u000a<span class="smaller">\u000a[img[symbol]]\u000a</span>\u000a\u000a- the returns on trade depend on [[distance from Rome|justification: geography]] and [[informational uncertainty|justification: info]]\u000a- the [[return|justification: market economy]] in any one market also depends on the number of [[warehouses|justification: market economy]] exploiting that market; more warehouses lower the profit per player\u000a- players count up the value for each market they have a warhouse in\u000a- each market indicates the value available depending on number of warehouse in it\u000a\u000a- WHEN a player has an agent IN ROME and in a market with warehouses in BOTH cities, [[informational uncertainty|justification: info]] is REMOVED and the player receives the trade boost for that market, as indicated by the table of values on the board.\u000a\u000a- If by the trade phase a player has a [[path|justification: geography]] from ROME to any [[EXOTIC market|justification: market economy]] (ie a warehouse in each market on any path of at least five steps starting in Rome and ending in the exotic market): the player receives the FULL value for the exotic market without having to have an agent present.\u000a\u000a- players keep track of their money by moving their token along the [[money ladder|justification: public knowledge]] on the board\u000a\u000a[[1. move]] ~ [[2. social intrigues]] ~ [[3. trade]]  ~ [[4. build or destroy or benefaction]] ~ [[5. draw fate, translate money into prestige]] ~ [[6. check for victory conditions]]\u000a\u000a<<if visited() is 1>><<set $score to $score + 1>><<endif>>\u000a
+V<h2> Trade</h2>\u000a\u000aEach player counts up the profit for each market where they have a warehouse and moves their money token accordingly. If more than one warehouse is present on a market the total profit of the location is divided between them - the value that is available for each player for that market is displayed on the board. In the illustration, if 1 player has a warehouse on Rome, that player receives $300; if 2 players, then they EACH get $150; if 3 players then EACH player receives $100.  When a player has an agent in Rome AND in a market with a warehouse, informational uncertainty is removed and the player receives a boost to the profit: 1 - $25; 2 - $50; 3 - $75; 4 - $100, 5 - $125. If the player has a full UNINTERRUPTED trading route from Rome to an exotic market (a market with a 5 in the centre of the node), that is a horreum in each market city on a network path between Rome and an exotic market the player receives the profit boost for the exotic market ONLY without having to have an agent present.\u000a\u000a<span class="smaller">\u000a[img[symbol]]\u000a</span>\u000a\u000a- the returns on trade depend on [[distance from Rome|justification: geography]] and [[informational uncertainty|justification: info]]\u000a- the [[return|justification: market economy]] in any one market also depends on the number of [[warehouses|justification: market economy]] exploiting that market; more warehouses lower the profit per player\u000a- players count up the value for each market they have a warhouse in\u000a- each market indicates the value available depending on number of warehouse in it\u000a\u000a- WHEN a player has an agent IN ROME and in a market with warehouses in BOTH cities, [[informational uncertainty|justification: info]] is REMOVED and the player receives the trade boost for that market, as indicated by the table of values on the board.\u000a\u000a- If by the trade phase a player has a [[path|justification: geography]] from ROME to any [[EXOTIC market|justification: market economy]] (ie a warehouse in each market on any path of at least five steps starting in Rome and ending in the exotic market): the player receives the FULL value for the exotic market without having to have an agent present.\u000a\u000a- players keep track of their money by moving their token along the [[money ladder|justification: public knowledge]] on the board\u000a\u000a[[Aim of the Game|Aim of the Game & Setup]] ~ [[1. move]] ~ [[2. social intrigues]] ~ [[3. trade]]  ~ [[4. build or destroy or benefaction]] ~ [[5. draw fate, translate money into prestige]] ~ [[6. check for victory conditions]]\u000a\u000a<<if visited() is 1>><<set $score to $score + 1>><<endif>>\u000a
 p504
 sg23
 V3. trade
@@ -1643,8 +1643,8 @@ g26
 I11
 I21
 I20
-I52
-I4
+I57
+I50
 I0
 I326
 I0
@@ -1682,7 +1682,7 @@ Tiddler
 p517
 (dp518
 g21
-V<h2> Movement</h2>\u000a\u000a- each player has the opportunity at the start of each movment phase to put one more agent on the board. This is accomplished by a [[roll of the die|justification: stochastic elements]] of 4 or higher. A [[new agent|justification: agency]] is placed on [[Rome|justification: Rome]] and may be used this turn, and be moved.\u000a\u000a- a player may not have more than one agent on Rome, and so an agent must be moved to an adjacent [[market|justification: market economy]] as part of the 1 move of that agent.\u000a\u000a- agents can move [[once per turn as part|justification: time]] of the movement phase.\u000a\u000a- agents do not have to move if the player wishes.\u000a\u000a- agents move 1 step over the network along the [[links to adjacent cities|justification: geography]].\u000a\u000aIN ALL MARKETS except for Rome, there [[can only be ONE agent|justification: playability]].\u000aHOWEVER:\u000a	- a player can still move her agent to a market where there is another player's agent, but this situation MUST be resolved during the '[[Social Intrigues|2. social intrigues]]' phase.\u000a\u000a[[1. move]] ~ [[2. social intrigues]] ~ [[3. trade]]  ~ [[4. build or destroy or benefaction]] ~ [[5. draw fate, translate money into prestige]] ~ [[6. check for victory conditions]]\u000a<<if visited() is 1>><<set $score to $score + 1>><<endif>>\u000a
+V<h2> Movement</h2>\u000a\u000a- each player has the opportunity at the start of each movment phase to put one more agent on the board. This is accomplished by a [[roll of the die|justification: stochastic elements]] of 4 or higher. A [[new agent|justification: agency]] is placed on [[Rome|justification: Rome]] and may be used this turn, and be moved.\u000a\u000a- a player may not have more than one agent on Rome, and so an agent must be moved to an adjacent [[market|justification: market economy]] as part of the 1 move of that agent.\u000a\u000a- agents can move [[once per turn as part|justification: time]] of the movement phase.\u000a\u000a- agents do not have to move if the player wishes.\u000a\u000a- agents move 1 step over the network along the [[links to adjacent cities|justification: geography]].\u000a\u000aIN ALL MARKETS except for Rome, there [[can only be ONE agent|justification: playability]].\u000aHOWEVER:\u000a	- a player can still move her agent to a market where there is another player's agent, but this situation MUST be resolved during the '[[Social Intrigues|2. social intrigues]]' phase.\u000a\u000a[[Aim of the Game|Aim of the Game & Setup]] ~ [[1. move]] ~ [[2. social intrigues]] ~ [[3. trade]]  ~ [[4. build or destroy or benefaction]] ~ [[5. draw fate, translate money into prestige]] ~ [[6. check for victory conditions]]\u000a<<if visited() is 1>><<set $score to $score + 1>><<endif>>\u000a
 p519
 sg23
 V1. move
@@ -1693,8 +1693,8 @@ g26
 I11
 I21
 I20
-I19
-I31
+I57
+I27
 I0
 I326
 I0
