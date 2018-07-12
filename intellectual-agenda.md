@@ -42,7 +42,15 @@ Premo, L. S. (2006). Agent-based models as behavioral laboratories for evolution
 
 ## Brughman's and Graham's Research Connected with the Ancient Economy
 
-Graham, S. (2005). Of Lumberjacks and Brick Stamps: Working with the Tiber as Infrastructure. In A. MacMahon and J. Price. Roman Urban Living. 106-124. Oxbow: Oxford.
+Brughmans, S. (2010). Connecting the dots: towards archaeological network analysis. Oxford Journal of Archaeology. 29:3, 277-303.
+
+Brughmans, S. (2013). Thinking through networks: A review of formal network methods in archaeology. Journal of Archaeological Method and Theory 20:4, 623-662.
+
+Brughmans, S. and Poblome, J. (2016). Roman bazaar or market economy? Explaining tableware distributions through computational modelling. Antiquity 90:350, 393-408.
+
+Brughmans, S. and Poblome, J. (2016). MERCURY: an agent-based model of tableware trade in the Roman East. Journal of Artificial Societies and Social Simulation 19:1, 3.
+
+Brughmans, S. and Poblome, J. (2017). The case for computational modelling of the Roman economy: a reply to Van Oyen. antiquity 91:359, 1364-1366.
 
 Graham, S. (2006). Networks, agent-based models and the Antonine itineraries: implications for Roman archaeology. Journal of Mediterranean Archaeology, 19:1, 45-64.
 
@@ -50,7 +58,7 @@ Graham, S. (2006). EX FIGLINIS The Network Dynamics of the Tiber Valley Brick In
 
 Graham, S., (2009). Behaviour Space: Simulating Roman Social Life and Civil Violence. Digital Studies/Le champ numérique. 1(2). DOI: http://doi.org/10.16995/dscn.109
 
-Graham, S. (2013). Counting Bricks and Stacking Wood: Providing the physical fabric. In P. Erdkamp. Cambridge Companion to the City of Rome. 278-296 Cambridge UP: Cambridge. 
+Graham, S. (2009). The Space Between: The Geography of Social Networks in the Tiber Valley. In F. Coarelli and H. Patterson. Mercator Placidissimus: the Tiber Valley in Antiquity. New research in the upper and middle river valley. (Proceedings of the Conference held at the British School at Rome, 27-28 Feb. 2004). 671-686. Edizione Qvasar: Rome.
 
 Graham, S., & Weingart, S. (2015). The Equifinality of archaeological networks: an agent-based exploratory lab approach. Journal of Archaeological Method and Theory, 22(1). doi: 10.1007/s10816-014-9230-y.
 
